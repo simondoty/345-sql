@@ -2225,7 +2225,7 @@ sqlwherefrag2
 	;
 	
 sqlsubquery
-	: (LPAREN SELECT)=>LPAREN SELECT {$sql_stmt::temp+="(SELECT"; System.out.println("Inside a subquery: ");} sqlquery RPAREN
+	: (LPAREN SELECT)=>LPAREN SELECT {$sql_stmt::temp+="(SELECT";} sqlquery RPAREN
 	;
 
 sqlexpr	//catches expressions and adds, also adding current string then reseting it

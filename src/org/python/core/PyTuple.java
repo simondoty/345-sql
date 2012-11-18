@@ -609,7 +609,9 @@ public class PyTuple extends PySequenceList implements List {
     					net.sf.jsqlparser.statement.select.Select caststmt =
     							(net.sf.jsqlparser.statement.select.Select)statement;
     					if (ctype.equalsIgnoreCase("local")) {
-    						SQLVisitor visitor = new SQLVisitor(conn, server, uname, pword);
+    						// printing if creating a visitor
+							System.out.println("About to create a sqlvisitor and then call getSelect on it.");
+							SQLVisitor visitor = new SQLVisitor(conn, server, uname, pword);
     						sqlstmt = visitor.getSelect(caststmt);
     					}
     					runAndOutputTuples(sqlstmt, stmt);
@@ -665,7 +667,7 @@ public class PyTuple extends PySequenceList implements List {
     					else
     						sqlstmt += " " + elements[i].toString() + " ";
     				}
-    				//System.out.println("Partial SLSTMT:"+sqlstmt);
+    				System.out.println("Partial SLSTMT:"+sqlstmt);
     			}
     			//System.out.println("SLSTMT:"+sqlstmt);
 
