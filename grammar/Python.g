@@ -2034,8 +2034,8 @@ scope connection;
 @init {
     expr etype = null;
 	$connection::url = "jdbc:oracle:thin:@rising-sun.microlab.cs.utexas.edu:1521:orcl";
-	$connection::uname = "CS345_fjg344";
-	$connection::pword = "orcl_fjg344";
+	$connection::uname = "CS345_dotysn";
+	$connection::pword = "orcl_dotysn";
 	$connection::contype = "local";
 }
 @after {
@@ -2190,8 +2190,8 @@ sqlcolumndefinition2
         ;
 
 sqlwhereclause
-        : s2=sqlwherefrag1 {$sql_stmt::temp+=$s2.text+" ";} ( s4=sqlsubquery {$sql_stmt::temp+=$s4.text+" ";} | sqlexpr)
-          ( s3=sqlwherefrag2 {$sql_stmt::temp+=$s3.text+" ";} ( s5=sqlsubquery {$sql_stmt::temp+=$s5.text+" ";} | sqlexpr) )*
+        : s2=sqlwherefrag1 {$sql_stmt::temp+=$s2.text+" ";} ( sqlsubquery | sqlexpr)
+          ( s3=sqlwherefrag2 {$sql_stmt::temp+=$s3.text+" ";} ( sqlsubquery | sqlexpr) )*
         ;
 
 sqlwherefrag1
@@ -2202,10 +2202,19 @@ sqlwherefrag2
 	: ( CAPSAND | CAPSOR ) (NAME DOT)? NAME  ( ASSIGN | LESS | LESSEQUAL | GREATER | GREATEREQUAL | ALT_NOTEQUAL )
 	;
 	
+	
+	
 sqlsubquery
 	: 
-	  (LPAREN SELECT)=>LPAREN SELECT {$sql_stmt::temp+="(SELECT"; System.out.println("Inside sqlsubquery nonterminal."); } sqlquery RPAREN { $sql_stmt::temp+=")"; }
+	  (LPAREN SELECT)=>LPAREN SELECT {$sql_stmt::temp+="(SELECT "; System.out.println("Inside sqlsubquery nonterminal."); } 
+	  subquery {$sql_stmt::temp+=")";}
 	;
+subquery
+	:
+	 s7=sqlquery RPAREN /* {$sql_stmt::temp+=$s7.text+"";} */
+	;
+
+
 
 sqlexpr	//catches expressions and adds, also adding current string then reseting it
 	: e = expr[expr_contextType.Load]
