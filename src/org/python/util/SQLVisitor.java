@@ -708,7 +708,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		System.out.println("stmt = \n" + stmt);						
 		
 		*/
-			
+		try {	
 		//create statement
 		CCJSqlParserManager pm = new CCJSqlParserManager();
 		net.sf.jsqlparser.statement.Statement statement = null;
@@ -735,7 +735,11 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		SQLVisitor visitor = new SQLVisitor(connection, url, uname, pword);
 		
 		temp = visitor.getSelect(caststmt);
-				
+		
+		} catch (Exception e) {
+		System.out.println("sqlvisitor:740:In catch block of of subselcet...");
+		
+		}		
 		//temp = subSelect.toString();
 		
 		System.out.println("SQLVisitor:688 - inside visit(SubSelect subSelect).");
