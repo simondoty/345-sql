@@ -136,29 +136,7 @@ import org.python.antlr.ast.Pass;
 import org.python.antlr.ast.Print;
 import org.python.antlr.ast.Raise;
 import org.python.antlr.ast.Repr;
-import org.python.antlr.ast.Return;sqlsubquery	
-  
-	
-  :	
-  (LPAREN	
-  SELECT)	
-  =>	
-  LPAREN	
-  SELECT	
-  {$sql_stmt::temp	
-  +=	
-  
-"(SELECT	
-  ";}	
-  subquery	
-  
-	
-  ;	
-  
-subquery
-: sqlquery RPAREN
-;
-
+import org.python.antlr.ast.Return;
 import org.python.antlr.ast.Slice;
 import org.python.antlr.ast.Str;
 import org.python.antlr.ast.Subscript;
@@ -2124,8 +2102,8 @@ contypefrag
 	
 sqlquery
     : s1=sqlqueryfrag {$sql_stmt::temp+=$s1.text+" ";}
-	sqlwhereclause?
- 	sqlorderbyclause?
+	       sqlwhereclause?
+       	sqlorderbyclause?
     ;
 	
 sqlqueryfrag
@@ -2213,7 +2191,7 @@ sqlcolumndefinition2
 
 sqlwhereclause
         : s2=sqlwherefrag1 {$sql_stmt::temp+=$s2.text+" ";} ( s4=sqlsubquery {$sql_stmt::temp+=$s4.text+" ";} | sqlexpr)
-          ( s3=sqlwherefrag2 {$sql_stmt::temp+=$s3.text+" ";} sqlexpr )*
+          ( s3=sqlwherefrag2 {$sql_stmt::temp+=$s3.text+" ";} ( s5=sqlsubquery {$sql_stmt::temp+=$s5.text+" ";} | sqlexpr) )*
         ;
 
 sqlwherefrag1
@@ -2225,7 +2203,8 @@ sqlwherefrag2
 	;
 	
 sqlsubquery
-	: (LPAREN SELECT)=>LPAREN SELECT {$sql_stmt::temp+="(SELECT";} sqlquery RPAREN
+	: 
+	  (LPAREN SELECT)=>LPAREN SELECT {$sql_stmt::temp+="(SELECT"; System.out.println("Inside sqlsubquery nonterminal."); } sqlquery RPAREN { $sql_stmt::temp+=")"; }
 	;
 
 sqlexpr	//catches expressions and adds, also adding current string then reseting it

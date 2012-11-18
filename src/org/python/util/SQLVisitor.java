@@ -203,6 +203,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
     }
 
 	public String getSelect(Select select) throws SQLException, JSQLParserException, ownIllegalSQLException{
+		System.out.println("SQLVisitor:206 - inside getSelect(Select select).");		
 		
 		boolean debugging = true;
 		String s = "SELECT ";
@@ -381,6 +382,8 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		return tCols;
 	}
 	public void visit(PlainSelect plainSelect) { 
+		System.out.println("SQLVisitor:384 - inside visit(PlainSelect plainSelect).");	
+	
 		ownException = "";
 		//will contain <nameOfTable, columnsOfTable>
 		HashMap<String, List<String>> tablesColumns = new HashMap<String, List<String>>();
@@ -684,6 +687,9 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	public void visit(SubSelect subSelect) {
 		SQLVisitor a = new SQLVisitor(connection, url, uname, pword);
 		temp = subSelect.toString();
+		
+		System.out.println("SQLVisitor:688 - inside visit(SubSelect subSelect).");
+		
 		temp = ""; //To keep it from breaking things, not yet implemented
 		//System.out.println("Sub select temp: " + temp);
 	}

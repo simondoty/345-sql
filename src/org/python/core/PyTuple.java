@@ -547,7 +547,10 @@ public class PyTuple extends PySequenceList implements List {
     			String sparql = parseSIM(elements, sqlstrings, server, uname, pword, ctype, conn);
     			if ( ! sparql.equals(""))
     				runAndOutputTuples(sparql, stmt);
-    		} else if (mode.equals("SQL") && !(asp_select || prolog_select)) {                                               // SQL PROCESSING
+    		} 
+    		
+    		// SQL code
+    		else if (mode.equals("SQL") && !(asp_select || prolog_select)) {                                               // SQL PROCESSING
     			String[] strings = sqlstrings.split(";");
     			int size = Math.max(strings.length - 1, elements.length);
     			//Parsing the SQL statement into one string
@@ -571,6 +574,8 @@ public class PyTuple extends PySequenceList implements List {
     				System.out.println(e);
     			}
     			ArrayList<PyObject> rows = new ArrayList<PyObject>();
+    			
+    			// convert stmt to string
     			sqlstmt = statement.toString();
 
     			boolean isRemote = false;
@@ -604,17 +609,37 @@ public class PyTuple extends PySequenceList implements List {
     					SQLVisitor visitor = new SQLVisitor(conn, server, uname, pword);
     					visitor.getInsert(caststmt, conn);
     				}
-    			} else if (statement instanceof Select) {
+    			} 
+    			
+    			// SQL Insert Code
+    			else if (statement instanceof Select) {
     				try {
+    				
+    				 
     					net.sf.jsqlparser.statement.select.Select caststmt =
     							(net.sf.jsqlparser.statement.select.Select)statement;
     					if (ctype.equalsIgnoreCase("local")) {
-    						// printing if creating a visitor
-							System.out.println("About to create a sqlvisitor and then call getSelect on it.");
+    						
+    						// printing if creating a visitor    						
+							System.out.println("PyTuple.java:624 - Before creating SQLVisitor.");							
+							
 							SQLVisitor visitor = new SQLVisitor(conn, server, uname, pword);
-    						sqlstmt = visitor.getSelect(caststmt);
+							
+    					// SQL to SPARQL
+    					sqlstmt = visitor.getSelect(caststmt);
+    					
+							System.out.println("PyTuple.java:631 - After sqlstmt = visitor.getSelect(caststmt)");							    					
+              System.out.println("sqlstmt = \n" + sqlstmt);							    												
+    						
     					}
+    					
+							System.out.println("PyTuple.java:636 - Before runAndOutputTuples(sqlstmt, stmt)");							    					    					
+              System.out.println("stmt = \n" + stmt);							    												
+
+    					// run the SPARQL and put into list of Tuples.
     					runAndOutputTuples(sqlstmt, stmt);
+    					
+    					
     				} catch (Exception e) {
     					PyObject[] temp = new PyObject[1];
     					temp[0] = new PyString(e.toString());
@@ -640,7 +665,10 @@ public class PyTuple extends PySequenceList implements List {
     			stmt.close();
     			if (conn != null)
     				conn.close();
-    		} else {                                                                        // PROLOG and ASP PROCESSING
+    		} 
+    		
+    		
+    		else {                                                                        // PROLOG and ASP PROCESSING
     			//replace elements with result of sql expression
     			String[] strings = sqlstrings.split(";");
     			int size = Math.max(strings.length - 1, elements.length);
@@ -797,6 +825,7 @@ public class PyTuple extends PySequenceList implements List {
     }
 
     public void runAndOutputTuples(String sqlstmt, Statement stmt) {
+    
         ArrayList<PyObject> rows = new ArrayList<PyObject>();
         try {
             stmt.execute(sqlstmt);
