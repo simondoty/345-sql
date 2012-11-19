@@ -645,12 +645,12 @@ public class PyTuple extends PySequenceList implements List {
     					sqlstmt = visitor.getSelect(caststmt);
     					
 							System.out.println("PyTuple.java:631 - After sqlstmt = visitor.getSelect(caststmt)");							    					
-              				System.out.println("sqlstmt = \n" + sqlstmt);							    												
+              				//System.out.println("sqlstmt = \n" + sqlstmt);							    												
     						
     					}
     					
 							System.out.println("PyTuple.java:636 - Before runAndOutputTuples(sqlstmt, stmt)");							    					    					
-             				System.out.println("stmt = \n" + stmt);							    												
+             				//System.out.println("stmt = \n" + stmt);							    												
 
     					// run the SPARQL and put into list of Tuples.
     					runAndOutputTuples(sqlstmt, stmt);
@@ -660,9 +660,9 @@ public class PyTuple extends PySequenceList implements List {
     				
     					System.out.println("PyTuple:661:In catch block of of instanceof Select...");
     					
-    					PyObject[] temp = new PyObject[1];
-    					temp[0] = new PyString(e.toString());
-    					rows.add(new PyTuple(temp));
+    					//PyObject[] temp = new PyObject[1];
+    					//temp[0] = new PyString(e.toString());
+    					//rows.add(new PyTuple(temp));
     				}
     			} else if (statement instanceof Delete) {
 

@@ -685,37 +685,17 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	}
 
 	public void visit(SubSelect subSelect) {
-		/*
 		
-		net.sf.jsqlparser.statement.select.Select caststmt =
-		(net.sf.jsqlparser.statement.select.Select)statement;
-		if (ctype.equalsIgnoreCase("local")) {
-
-		// printing if creating a visitor    						
-		System.out.println("PyTuple.java:624 - Before creating SQLVisitor.");							
-
-		SQLVisitor visitor = new SQLVisitor(conn, server, uname, pword);
-
-		// SQL to SPARQL
-		sqlstmt = visitor.getSelect(caststmt);
-
-		System.out.println("PyTuple.java:631 - After sqlstmt = visitor.getSelect(caststmt)");							    					
-		System.out.println("sqlstmt = \n" + sqlstmt);							    												
-
-		}
-
-		System.out.println("PyTuple.java:636 - Before runAndOutputTuples(sqlstmt, stmt)");							    					    					
-		System.out.println("stmt = \n" + stmt);						
+	try {	
 		
-		*/
-		try {	
-		//create statement
+		System.out.println("Entering Subselect visit method. SQLVIsitor.691. Subselect = " + subSelect);
+
+
 		CCJSqlParserManager pm = new CCJSqlParserManager();
 		net.sf.jsqlparser.statement.Statement statement = null;
-		
-
+		       
 		// turn temp subselect into a normal sqlstmt (remove parens)
-		String sqlstmt2 = "SELECT PRICE FROM VISITS WHERE PETID = 1006"; //subSelect.toString();
+		String sqlstmt2 = "SELECT PRICE FROM VISITS WHERE VISITS.PETID = 1006"; //subSelect.toString();
 		/*while(sqlstmt2.charAt(0).equals("(") || sqlstmt.charAt(0).equals(" ")) {
 			sqlstmt2 = sqlstmt2.substring(1);
 		
@@ -731,21 +711,27 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		net.sf.jsqlparser.statement.select.Select caststmt =
 		(net.sf.jsqlparser.statement.select.Select)statement;
 		
+	    //System.out.println("Trying to print out visitor connection info:  " + uname + pword);	
+		SQLVisitor visitor2 = new SQLVisitor(connection, url, uname, pword);
 		
-		SQLVisitor visitor = new SQLVisitor(connection, url, uname, pword);
-		
-		temp = visitor.getSelect(caststmt);
-		
+		String temp2 = visitor2.getSelect(caststmt);
+	    
+		System.out.println("Temp2 = " + temp2);
+		temp = temp + temp2;
+
+		// need to turn this into sparql.....
+        System.out.println("sqlvisitor.721. Combined temp2 and temp. \ntemp =  " + temp);
 		} catch (Exception e) {
 		System.out.println("sqlvisitor:740:In catch block of of subselcet...");
 		
 		}		
 		//temp = subSelect.toString();
 		
-		System.out.println("SQLVisitor:688 - inside visit(SubSelect subSelect).");
+		//System.out.println("SQLVisitor:688 - inside visit(SubSelect subSelect).");
 		//System.out.println("SQLVisitor:688 - printing subSelect: " + temp);
 		//temp = ""; //To keep it from breaking things, not yet implemented
-		System.out.println("Sub select temp: " + temp);
+		
+		
 	}
 
 	public void visit(Addition addition) {
