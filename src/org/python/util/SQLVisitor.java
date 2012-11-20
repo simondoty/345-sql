@@ -318,7 +318,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			// TODO this should iterate through these, unless we're only allowing one subQuery
 			//s += "\nwhere " + filters.get(0).toString() + " in (";
 			for(Iterator fI=subselects.iterator(); fI.hasNext();) {
-				String newS = "\nwhere SPECIES_ANIMALTYPES in( "; 
+				String newS = "\nwhere VETID_VETS in( "; 
 				net.sf.jsqlparser.statement.select.Select caststmt = null;
 				// create select and cast
 				try {			
@@ -568,8 +568,14 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				
 		}
 		
-		if (plainSelect.getWhere() != null) { //ie, there's a where clause
+		if (plainSelect.getWhere() != null && !plainSelect.getWhere().toString().toUpperCase().contains("SELECT")) {                                //ie, there's a where clause
 			wasEquals = false;
+			
+			// if whereclause is a select, don't visit yet
+			System.out.println("Printing out plainSelect.getWhere():  " + plainSelect.getWhere().toString());
+			
+			//if(plainSelect.getWhere().contians("SELECT"))
+				
 			plainSelect.getWhere().accept(this);
 			String tableName = getFilterTableName(temp.trim());
 			String key = tableName;
@@ -728,7 +734,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		net.sf.jsqlparser.statement.Statement statement = null;
 		       
 		// turn temp subselect into a normal sqlstmt (remove parens)
-		String sqlstmt2 = "SELECT SPECIES FROM ANIMALTYPES WHERE ANIMALTYPES.SPECIES = 'CAT'"; //subSelect.toString();
+		String sqlstmt2 = "SELECT VISITS.VETID FROM VISITS WHERE VISITS.VETID = 4001"; //subSelect.toString();
 		
 		statement = (net.sf.jsqlparser.statement.Statement)pm.parse(new StringReader(sqlstmt2));
 		
