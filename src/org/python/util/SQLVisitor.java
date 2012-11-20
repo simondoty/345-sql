@@ -314,7 +314,37 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		s += "',\n\t SEM_MODELS('RDF_MODEL_" + uname + "'), ";
 		s += "null,\n\t SEM_ALIASES( SEM_ALIAS('', 'http://www.example.org/people.owl#')), null) )";
 		
+		if(!subselects.isEmpty()) {
+			// TODO this should iterate through these, unless we're only allowing one subQuery
+			//s += "\nwhere " + filters.get(0).toString() + " in (";
+			for(Iterator fI=subselects.iterator(); fI.hasNext();) {
+				String newS = "\nwhere SPECIES_ANIMALTYPES in( "; 
+				net.sf.jsqlparser.statement.select.Select caststmt = null;
+				// create select and cast
+				try {			
+					
+					
+					net.sf.jsqlparser.statement.Statement statement = null;
+					statement = (net.sf.jsqlparser.statement.Statement)parserManager.parse(new StringReader((String)fI.next()));		
+					caststmt = (net.sf.jsqlparser.statement.select.Select)statement;
+				} catch (Exception e) {
+					System.out.println("SQLVisitor. 330. Exception: " + e.toString());
+				}
+				
+				newS += getSelect(caststmt);
+				
+				//String item = (String)fI.next();
+				s += newS + " ";
+				if (fI.hasNext()) {
+					s += "\n";
+				}
+			}
+			s+= ")";
+
+		}
+
 		System.out.println("RDF conversion of select:\n |" + s + "|");
+
 		
 		return s;
 	}
@@ -374,6 +404,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		List<String> tCols = new ArrayList<String>();
 		List<String> temp = sd.getAllColumns(uname,tableName);
 		for(Iterator fI=temp.iterator(); fI.hasNext();) {
+			
 			String c = (String)fI.next();
 			if(!c.equals("type"))
 				tCols.add(c);
@@ -671,6 +702,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			System.out.println("Null");
 			//return null;
 		}
+
 	}
 
 	public void visit(Union union) {
@@ -685,7 +717,8 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	}
 
 	public void visit(SubSelect subSelect) {
-		
+		//subselects.add(subSelect);
+	
 	try {	
 		
 		System.out.println("Entering Subselect visit method. SQLVIsitor.691. Subselect = " + subSelect);
@@ -695,24 +728,17 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		net.sf.jsqlparser.statement.Statement statement = null;
 		       
 		// turn temp subselect into a normal sqlstmt (remove parens)
-		String sqlstmt2 = "SELECT PRICE FROM VISITS WHERE VISITS.PETID = 1006"; //subSelect.toString();
-		/*while(sqlstmt2.charAt(0).equals("(") || sqlstmt.charAt(0).equals(" ")) {
-			sqlstmt2 = sqlstmt2.substring(1);
-		
-		}
-
-		while(sqlstmt2.charAt(sqlstmt.length()-1 ).equals(")") || sqlstmt.charAt(sqlstmt.length()-1).equals(" ")) {
-			sqlstmt2 = sqlstmt2.substring(0, sqlstmt.length()-2);
-		
-		}*/		
+		String sqlstmt2 = "SELECT SPECIES FROM ANIMALTYPES WHERE ANIMALTYPES.SPECIES = 'CAT'"; //subSelect.toString();
 		
 		statement = (net.sf.jsqlparser.statement.Statement)pm.parse(new StringReader(sqlstmt2));
 		
-		net.sf.jsqlparser.statement.select.Select caststmt =
-		(net.sf.jsqlparser.statement.select.Select)statement;
+		net.sf.jsqlparser.statement.select.Select caststmt = (net.sf.jsqlparser.statement.select.Select)statement;
 		
+		subselects.add(caststmt.toString());
+		// try calling getSelect with
+		//caststmt.getSelectBody().accept(this);
 	    //System.out.println("Trying to print out visitor connection info:  " + uname + pword);	
-		SQLVisitor visitor2 = new SQLVisitor(connection, url, uname, pword);
+		/*SQLVisitor visitor2 = new SQLVisitor(connection, url, uname, pword);
 		
 		String temp2 = visitor2.getSelect(caststmt);
 	    
@@ -721,17 +747,10 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 
 		// need to turn this into sparql.....
         System.out.println("sqlvisitor.721. Combined temp2 and temp. \ntemp =  " + temp);
+		*/
 		} catch (Exception e) {
 		System.out.println("sqlvisitor:740:In catch block of of subselcet...");
-		
-		}		
-		//temp = subSelect.toString();
-		
-		//System.out.println("SQLVisitor:688 - inside visit(SubSelect subSelect).");
-		//System.out.println("SQLVisitor:688 - printing subSelect: " + temp);
-		//temp = ""; //To keep it from breaking things, not yet implemented
-		
-		
+	    }
 	}
 
 	public void visit(Addition addition) {

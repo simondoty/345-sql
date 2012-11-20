@@ -571,6 +571,7 @@ public class PyTuple extends PySequenceList implements List {
     						sqlstmt += " " + elements[i].toString() + " ";
     				}
     			}
+    			
     			System.out.println("Printing sqlstmt. Before setting up CCJsqlparsemanager \n sqlstmt = " + sqlstmt);
     			
     			CCJSqlParserManager pm = new CCJSqlParserManager();
@@ -591,6 +592,7 @@ public class PyTuple extends PySequenceList implements List {
     			
     			// convert stmt to string
     			sqlstmt = statement.toString();
+    			System.out.println("Printing sqlstmt. After setting up CCJsqlparsemanager \n sqlstmt = " + sqlstmt);
 
     			boolean isRemote = false;
     			if (ctype.equalsIgnoreCase("remote")) isRemote = true;
@@ -658,7 +660,8 @@ public class PyTuple extends PySequenceList implements List {
     					
     				} catch (Exception e) {
     				
-    					System.out.println("PyTuple:661:In catch block of of instanceof Select...");
+    					System.out.println("PyTuple:661:In catch block of of instanceof Select. Exception is: " + e.toString());
+    					
     					
     					//PyObject[] temp = new PyObject[1];
     					//temp[0] = new PyString(e.toString());
@@ -754,8 +757,12 @@ public class PyTuple extends PySequenceList implements List {
     					//visitor.site = website;//visitor.subscript = "_CS345_fjg344";//System.out.println("TEST");
 
     					System.out.println(caststmt);
-    					if (ctype.equalsIgnoreCase("local"))
+    					if (ctype.equalsIgnoreCase("local")) {
     						sqlstmt = visitor.getSelect(caststmt);
+    						
+							//System.out.println("RDF conversion of select:\n |" + sqlstmt + "|");    					
+    						
+    					}
 
     					// check if  table is there
     					//ResultSet tables;
