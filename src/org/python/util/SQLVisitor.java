@@ -281,11 +281,18 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		
 		// Adding the filters to SEM_MATCH, e.g WHERE D.GRADES > 80
 		//results in: FILTER( GRADES_D > 80)
-		if ( !filters.isEmpty() ) {
+		if ( !filters.isEmpty() && filters.get(0).contains("VISITS") ) {
+			//!plainSelect.getWhere().toString().toUpperCase().contains("SELECT")
+			 
 			s += "FILTER ( ";
 			for(Iterator fI=filters.iterator(); fI.hasNext();) {
 				String item = (String)fI.next();
+				
+				System.out.println("Printing filter from within for loop: " + item);
+				//!plainSelect.getWhere().toString().toUpperCase().contains("VISITS")
+				//if(item.contains("VISITS")) {
 				s += item + " ";
+				//}
 				if (fI.hasNext()) {
 					s += " && ";
 				}
@@ -321,9 +328,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				String newS = "\nwhere VETID_VETS in( "; 
 				net.sf.jsqlparser.statement.select.Select caststmt = null;
 				// create select and cast
-				try {			
-					
-					
+				try {				
 					net.sf.jsqlparser.statement.Statement statement = null;
 					statement = (net.sf.jsqlparser.statement.Statement)parserManager.parse(new StringReader((String)fI.next()));		
 					caststmt = (net.sf.jsqlparser.statement.select.Select)statement;
@@ -564,11 +569,10 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 					else
 						columnsAs.put(colName,colName);
 				}
-			}
-				
+			}				
 		}
 		
-		if (plainSelect.getWhere() != null && !plainSelect.getWhere().toString().toUpperCase().contains("SELECT")) {                                //ie, there's a where clause
+		if (plainSelect.getWhere() != null) {                                //ie, there's a where clause
 			wasEquals = false;
 			
 			// if whereclause is a select, don't visit yet
@@ -620,6 +624,8 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			}
 			*/
 		}
+		
+		
 		if(plainSelect.getOrderByElements() != null) {
 			for(Iterator i=plainSelect.getOrderByElements().iterator(); i.hasNext();) {
 				OrderByElement item = (OrderByElement)i.next();
@@ -663,12 +669,9 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				}
 			}
 		}
-
-        //String selectItems = plainSelect.getSelectItems());
-		//System.out.println("Select items: " + selectItems);
-		//System.out.println("Select body: " + selectItems.getSelectBody());
-
 	}
+	
+	
 	static public boolean isNumeric(String str){
 		DecimalFormatSymbols currentLocaleSymbols = DecimalFormatSymbols.getInstance();
 		char minusSign = currentLocaleSymbols.getMinusSign();
