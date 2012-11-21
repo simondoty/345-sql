@@ -645,9 +645,10 @@ public class PyTuple extends PySequenceList implements List {
 							
     					// SQL to SPARQL
     					sqlstmt = visitor.getSelect(caststmt);
+    					System.out.println("RDF conversion of select:\n |" + sqlstmt.toString() + "|");    
     					
-							System.out.println("PyTuple.java:631 - After sqlstmt = visitor.getSelect(caststmt)");							    					
-              				//System.out.println("sqlstmt = \n" + sqlstmt);							    												
+						System.out.println("PyTuple.java:631 - After sqlstmt = visitor.getSelect(caststmt)");							    					
+              			//System.out.println("sqlstmt = \n" + sqlstmt);							    												
     						
     					}
     					
@@ -760,7 +761,7 @@ public class PyTuple extends PySequenceList implements List {
     					if (ctype.equalsIgnoreCase("local")) {
     						sqlstmt = visitor.getSelect(caststmt);
     						
-							//System.out.println("RDF conversion of select:\n |" + sqlstmt + "|");    					
+												
     						
     					}
 

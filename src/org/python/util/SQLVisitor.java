@@ -68,6 +68,8 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	public static Statement stmt;
 	public static SPARQLDoer sd;
 	
+	public String saveName = "";
+	
 
 	CCJSqlParserManager parserManager = new CCJSqlParserManager();
 
@@ -321,11 +323,15 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		s += "',\n\t SEM_MODELS('RDF_MODEL_" + uname + "'), ";
 		s += "null,\n\t SEM_ALIASES( SEM_ALIAS('', 'http://www.example.org/people.owl#')), null) )";
 		
+		int i = 0;
+		for(String subSel: subselects) {
+			System.out.println("subselect element " + i +" is " + subSel);
+		}
 		if(!subselects.isEmpty()) {
 			// TODO this should iterate through these, unless we're only allowing one subQuery
 			//s += "\nwhere " + filters.get(0).toString() + " in (";
 			for(Iterator fI=subselects.iterator(); fI.hasNext();) {
-				String newS = "\nwhere VETID_VETS in( "; 
+				String newS = "\nwhere " + saveName + " in ("; 
 				net.sf.jsqlparser.statement.select.Select caststmt = null;
 				// create select and cast
 				try {				
@@ -347,10 +353,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			s+= ")";
 
 		}
-
-		System.out.println("RDF conversion of select:\n |" + s + "|");
-
-		
+		//System.out.println("RDF conversion of select:\n |" + s + "|");		
 		return s;
 	}
 	public void printList(String field, List<String> list, boolean isHashMap){ 
@@ -577,12 +580,15 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			
 			// if whereclause is a select, don't visit yet
 			System.out.println("Printing out plainSelect.getWhere():  " + plainSelect.getWhere().toString());
-			
-			//if(plainSelect.getWhere().contians("SELECT"))
-				
 			plainSelect.getWhere().accept(this);
 			String tableName = getFilterTableName(temp.trim());
 			String key = tableName;
+			String[] whereStrings = plainSelect.getWhere().toString().split(" ");
+			System.out.println("about to build saveName");
+			for(int i = 0; i < whereStrings.length; i++)
+				if(whereStrings[i].toUpperCase().equals("(SELECT"))
+					saveName = whereStrings[0] + "_";
+			System.out.println("saveName: " + saveName);
 			String dataValue = temp.substring(temp.lastIndexOf(" ") + 1);
 			if(!isNumeric(dataValue))
 				temp =temp.substring(0, temp.lastIndexOf(" ") + 1) + "\"" + temp.substring(temp.lastIndexOf(" ") + 1) + "\"";
@@ -593,8 +599,13 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 					ownException = "ORA-00904: \""+tableName+"\".\""+temp.substring(temp.indexOf("?")+1,temp.lastIndexOf("_"))+"\": invalid identifier";
 					return;
 				}
-				if(tablesAliases.containsKey(tableName))
+				if(tablesAliases.containsKey(tableName)){
 					filters.add(temp.replace(tableName, tablesAliases.get(tableName)));
+					if (saveName != null) {
+						saveName = saveName + "" + tableName;
+						System.out.println("\n\n\nSAVENAME == " + saveName + "\n\n");
+					}
+				}
 			}
 			else{
 				int j = 0;
@@ -732,14 +743,19 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		
 		System.out.println("Entering Subselect visit method. SQLVIsitor.691. Subselect = " + subSelect);
 
-
 		CCJSqlParserManager pm = new CCJSqlParserManager();
 		net.sf.jsqlparser.statement.Statement statement = null;
 		       
 		// turn temp subselect into a normal sqlstmt (remove parens)
-		String sqlstmt2 = "SELECT VISITS.VETID FROM VISITS WHERE VISITS.VETID = 4001"; //subSelect.toString();
+		//String sqlstmt2 = "SELECT VISITS.VETID FROM VISITS WHERE VISITS.VETID = 4001";
+		int i = 0;
+		String subSelString = subSelect.toString();
+		int frontParen = subSelString.indexOf('(');
+		int backParen = subSelString.lastIndexOf(')');
+		subSelString = subSelString.substring((frontParen+1), backParen);
 		
-		statement = (net.sf.jsqlparser.statement.Statement)pm.parse(new StringReader(sqlstmt2));
+		
+		statement = (net.sf.jsqlparser.statement.Statement)pm.parse(new StringReader(subSelString));
 		
 		net.sf.jsqlparser.statement.select.Select caststmt = (net.sf.jsqlparser.statement.select.Select)statement;
 		

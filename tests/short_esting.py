@@ -27,7 +27,7 @@ output=SELECT VETID, NAME FROM VETS WHERE VETID = (SELECT VISITS.VETID FROM VISI
 
 #output=SELECT * FROM PETS, VETS WHERE PRICE = (SELECT PRICE FROM VISITS WHERE VISITS.PETID = 1006); #works
 #print  output
-neatPrintTable(output);
+#neatPrintTable(output);
 
 #output=SELECT TIME, PRICE, VETID, PETID FROM VISITS WHERE PRICE = 80; #works
 #neatPrintTable(output);
