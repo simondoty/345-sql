@@ -29,7 +29,7 @@ import oracle.jdbc.OracleResultSet;
 import oracle.jdbc.pool.OracleDataSource;
 
 import org.python.core.SPARQLDoer;
-
+import org.python.util.SQLValidator;
 import java.util.List;
 import java.util.Iterator;
 import java.util.ArrayList;
@@ -67,7 +67,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	public static OracleConnection connection;
 	public static Statement stmt;
 	public static SPARQLDoer sd;
-	
+	public static SQLValidator validator;
 	public String saveName = "";
 	
 
@@ -207,6 +207,8 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	public String getSelect(Select select) throws SQLException, JSQLParserException, ownIllegalSQLException{
 		System.out.println("SQLVisitor:206 - inside getSelect(Select select).");		
 		
+		validator = new SQLValidator();
+		
 		boolean debugging = true;
 		String s = "SELECT ";
 		
@@ -283,24 +285,27 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		
 		// Adding the filters to SEM_MATCH, e.g WHERE D.GRADES > 80
 		//results in: FILTER( GRADES_D > 80)
-		if ( !filters.isEmpty() && subselects.isEmpty() ) {  //filters.get(0).contains("VISITS")
-			//!plainSelect.getWhere().toString().toUpperCase().contains("SELECT")
-			 
+		if ( !filters.isEmpty() ) {
+			for(Iterator fI=filters.iterator(); fI.hasNext();) {
+				String item = (((String)fI.next()).trim()).split("\\s+")[0];
+    			int lio_ = item.lastIndexOf("_");
+    			String col = item.substring(0, lio_).replace("?", "");
+    			String tName = item.substring(lio_ + 1);
+				if(!columnsAs.containsKey(tName + "." + col)){
+    				s += "?this" + tName + " :" + col + " " + item + " .\n\t";
+				}
+			}
 			s += "FILTER ( ";
 			for(Iterator fI=filters.iterator(); fI.hasNext();) {
 				String item = (String)fI.next();
-				
-				//System.out.println("Printing filter from within for loop: " + item);
-				//!plainSelect.getWhere().toString().toUpperCase().contains("VISITS")
-				//if(item.contains("VISITS")) {
 				s += item + " ";
-				//}
 				if (fI.hasNext()) {
 					s += " && ";
 				}
 			}
 			s += " ) ";
 		}
+		
 		
 		//INTERNAL COLUMNS
 		for (String item : internalColumns) {
@@ -500,23 +505,37 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 					//at this point, the temp just gets converted to the rhs side of the ON expression
 					//LEFT SIDE OF JOIN
 					String tableName = temp.substring(5, temp.indexOf(" :"));
-					String key = tableName;
-					if(!tablesAliases.containsKey(key))
+					
+					/*String key = tableName;
+					
+					if(!tablesAliases.containsKey(key))					
 						key = (String)getKeyByValue(tablesAliases,tableName);
 					if(key == null || !key.equals(tableName)){
 						ownException = "ORA-00904: \""+tableName+"\": invalid identifier";
 						return;
+					}*/
+					
+					if(!(ownException = validator.validateTable(tablesAliases, tableName, "")).isEmpty()){
+						return;
 					}
+					
+					
 					temp = temp.replace(tableName, tablesAliases.get(tableName));
 					//RIGHT SIDE OF JOIN
 					tableName = temp.substring(temp.lastIndexOf("?this") + 5, temp.lastIndexOf(" :"));
+					/*
 					key = tableName;
 					if(!tablesAliases.containsKey(key))
 						key = (String)getKeyByValue(tablesAliases,tableName);
 					if(key == null || !key.equals(tableName)){
 						ownException = "ORA-00904: \""+tableName+"\": invalid identifier";
 						return;
+					}*/
+					
+					if(!(ownException = validator.validateTable(tablesAliases, tableName, "")).isEmpty()){
+						return;
 					}
+					
 					temp = temp.replace(tableName, tablesAliases.get(tableName));
 					matches.add(temp);
 					
@@ -549,36 +568,25 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 						tempColumnAs = split[1];
 						columnAs = true;
 					}
+					
 					String tableName = tablename(temp);
-					String key = tableName;
 					String colName = "";
-					if(key.equals("tbl")){
-						int j = 0;
-						String tName = "";
-						colName = colname(temp);
-						for (String st : tablesColumns.keySet()) { 
-							if (tablesColumns.get(st).contains(colName)){ 
-								j++;
-								tName = st;
-							}
-						}
-						if(j > 1){
-							ownException = "\"" + colName + "\" ORA-00918: column ambiguously defined";
+					
+					if(tableName.equals("tbl")){
+						//validate column
+						colName = validator.validateColumn(tablesColumns, colname(temp));
+						if(!validator.isValidColumn()){
+							ownException = colName;
 							return;
-						}
-						if(j == 1){
-							colName = tName + "." + colName;
 						}
 					}
 					else{
-						if(!tablesAliases.containsKey(key))
-							key = (String)getKeyByValue(tablesAliases,tableName);
-							
-						if(key == null || !key.equals(tableName)){
-							ownException = "ORA-00904: \""+tableName+"\".\""+colname(temp)+"\": invalid identifier";
+						//Validate column
+						if(!(ownException = validator.validateTable(tablesAliases, tableName, colname(temp))).isEmpty()){
 							return;
 						}
-						colName = "";
+						
+				 		//put the column in proper format
 						if(tablesAliases.containsKey(tableName))
 							colName = temp.replace(tableName, tablesAliases.get(tableName));
 						else{
@@ -590,21 +598,21 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 					else
 						columnsAs.put(colName,colName);
 				}
-			}				
+			}
+					
 		}
 		
 		if (plainSelect.getWhere() != null) {                                //ie, there's a where clause
 			wasEquals = false;
 			
 			// if whereclause is a select, don't visit yet
-			System.out.println("Printing out plainSelect.getWhere():  " + plainSelect.getWhere().toString());
+			//System.out.println("Printing out plainSelect.getWhere():  " + plainSelect.getWhere().toString());
 			plainSelect.getWhere().accept(this);
-			System.out.println("Returned from subdselect?");
-			if(temp == null)
-				System.out.println("temp is null!");
-			System.out.println("temp= " + temp);
+			//System.out.println("Returned from subdselect?");
+			
+			//System.out.println("temp= " + temp);
 			String tableName = getFilterTableName(temp.trim());
-			System.out.println("Built tableName");
+			//System.out.println("Built tableName");
 			String key = tableName;
 			//String[] whereStrings = plainSelect.getWhere().toString().split(" ");
 			//System.out.println("about to build saveName");
@@ -612,20 +620,18 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				//if(whereStrings[i].toUpperCase().equals("(SELECT"))
 					//saveName = whereStrings[0] + "_";
 			//System.out.println("saveName: " + saveName);
-					System.out.println("Made it : 605");
+					//System.out.println("Made it : 605");
 			String dataValue = temp.substring(temp.lastIndexOf(" ") + 1);
-					System.out.println("Made it :607");
+					//System.out.println("Made it :607");
 			if(!isNumeric(dataValue))
 				temp =temp.substring(0, temp.lastIndexOf(" ") + 1) + "\"" + temp.substring(temp.lastIndexOf(" ") + 1) + "\"";
-			System.out.println("Made it : 610");
+			//System.out.println("Made it : 610");
 			if(!key.equals("tbl")){
-				if(!tablesAliases.containsKey(key))
-					key = (String)getKeyByValue(tablesAliases,tableName);
-				if(key == null || !key.equals(tableName)){
-					ownException = "ORA-00904: \""+tableName+"\".\""+temp.substring(temp.indexOf("?")+1,temp.lastIndexOf("_"))+"\": invalid identifier";
+				//validate table name
+				if(!(ownException = validator.validateTable(tablesAliases, tableName, temp.substring(temp.indexOf("?")+1,temp.lastIndexOf("_")))).isEmpty()){
 					return;
 				}
-						System.out.println("Made it : 618");
+						//System.out.println("Made it : 618");
 				if(tablesAliases.containsKey(tableName)){
 					filters.add(temp.replace(tableName, tablesAliases.get(tableName)));
 				/*	if (saveName != null) {
@@ -634,33 +640,27 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 					}
 				*/}
 			}
-			else{ 		System.out.println("Made it : 627");
-				int j = 0;
-				tableName = "";
-				for (String entry : columnsAs.keySet()) {
-					if(temp.contains(colname(entry))){
-						j++;
-						tableName = tablename(entry);
-						//filters.add(temp.replace("_tbl","_" + tablename(entry)));
-						//break;
-					}
-				}
+			else{
+				String ct = temp.trim().split("\\s+")[0];
+				String col = ct.substring(1, ct.lastIndexOf("_"));
 				
-				if(j == 1)
-					filters.add(temp.replace("_tbl","_" + tableName));
-				else{
-					ownException = "\"" + temp + "\" ORA-0091?: column ambiguously defined";
-					return;		
+				//validate column
+				String colName = validator.validateColumn(tablesColumns, col);
+				if(!validator.isValidColumn()){
+					ownException = colName;
+					return;
 				}
-					
+				tableName = tablename(colName);
+				filters.add(temp.replace("_tbl","_" + tableName));
 			}
+		}
 			/*
 			if(wasEquals) { //OK EQUAL STATEMENTS ARE NOT MATCHES, BUT FILTERS?
 				matches.add(temp);
 				filters.add(temp);
 			}
 			*/
-		}
+	
 		
 		System.out.println("Made it : 652");
 		if(plainSelect.getOrderByElements() != null) {
@@ -668,13 +668,10 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				OrderByElement item = (OrderByElement)i.next();
 				item.accept(this);
 				if(!(temp.contains("DESC") || temp.contains("ASC"))){
-					System.out.println("HERE 658");
+					//System.out.println("HERE 658");
 					String tableName = tablename(temp);
 					String key = tableName; 
-					if(!tablesAliases.containsKey(key))
-						key = (String)getKeyByValue(tablesAliases,tableName);
-					if(key == null || !key.equals(tableName)){
-						ownException = "ORA-00904: \""+tableName+"\".\""+colname(temp)+"\": invalid identifier";
+					if(!(ownException = validator.validateTable(tablesAliases, tableName, colname(temp))).isEmpty()){
 						return;
 					}
 					if(tablesAliases.containsKey(tableName))
@@ -683,22 +680,17 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 						orderby.add(temp);
 				}
 				else{
-				System.out.println("Here 672");
-					int j = 0;
 					temp = temp.trim();
 					String colName = temp.substring(temp.indexOf(" ?") + 2, temp.lastIndexOf("_"));
 					String tName = temp.substring(temp.lastIndexOf("_") + 1, temp.lastIndexOf(" )"));
 					if(tName.equals("tbl")){
-						for (String st : tablesColumns.keySet()) { 
-							if (tablesColumns.get(st).contains(colName)){ 
-								j++;
-								tName = st;
-							}
-						}
-						if(j > 1){
-							ownException = "\"" + colName + "\" ORA-00918: column ambiguously defined";
+						//Validate column
+						colName = validator.validateColumn(tablesColumns, colName);
+						if(!validator.isValidColumn()){
+							ownException = colName;
 							return;
 						}
+						temp = temp.replace("tbl", tablename(colName));
 					}
 					if(!columnsAs.containsKey(tName+ "." + colName)){
 						internalColumns.add(tName+ "." + colName);
@@ -825,33 +817,19 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			String tableName = getFilterTableName(temp);
 			String key = tableName;
 			if(!key.equals("tbl")){
-				if(!tablesAliases.containsKey(key))
-					key = (String)getKeyByValue(tablesAliases,tableName);
-				if(key == null || !key.equals(tableName)){
-					ownException = "ORA-00904: \""+tableName+"\".\""+temp.substring(temp.indexOf("?")+1,temp.lastIndexOf("_"))+"\": invalid identifier";
+				if(!(ownException = validator.validateTable(tablesAliases, tableName, temp.substring(temp.indexOf("?")+1,temp.lastIndexOf("_")))).isEmpty()){
 					return;
 				}
 				if(tablesAliases.containsKey(tableName))
 					filters.add(temp.replace(tableName, tablesAliases.get(tableName)));
 			}
 			else{
-				int j = 0;
-				tableName = "";
-				for (String entry : columnsAs.keySet()) {
-					if(temp.contains(colname(entry))){
-						j++;
-						tableName = tablename(entry);
-						//filters.add(temp.replace("_tbl","_" + tablename(entry)));
-						//break;
-					}
+				tableName = validator.validateColumnAs(columnsAs, temp);
+				if(!validator.isValidColumn()){
+					ownException = tableName;
+					return;
 				}
-				
-				if(j == 1)
-					filters.add(temp.replace("_tbl","_" + tableName));
-				else{
-					ownException = "\"" + temp + "\" ORA-0091?: column ambiguously defined";
-					return;		
-				}
+				filters.add(temp.replace("_tbl","_" + tableName));
 			}
 		}
 		wasEquals = false;

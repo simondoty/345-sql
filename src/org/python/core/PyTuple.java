@@ -599,6 +599,7 @@ public class PyTuple extends PySequenceList implements List {
 
     			if (statement instanceof CreateTable) {
     				if (ctype.equalsIgnoreCase("remote")) {
+    					
     					stmt.execute(sqlstmt);
     				} else {
     					try {
@@ -656,6 +657,7 @@ public class PyTuple extends PySequenceList implements List {
              				//System.out.println("stmt = \n" + stmt);							    												
 
     					// run the SPARQL and put into list of Tuples.
+    					System.out.println("runandout without visitor. sqltmt: " + sqlstmt);
     					runAndOutputTuples(sqlstmt, stmt);
     					
     					
@@ -778,6 +780,7 @@ public class PyTuple extends PySequenceList implements List {
     					//Need else, as ASP_SELECT, RDF_SELECT etc,. have their own way to process data
     					else {
     						if (ctype.equalsIgnoreCase("remote")) {
+    						    
     							stmt.execute(sqlstmt);
     						}
     						OracleResultSet rs = (OracleResultSet)stmt.executeQuery(sqlstmt);
@@ -854,8 +857,8 @@ public class PyTuple extends PySequenceList implements List {
     public void runAndOutputTuples(String sqlstmt, Statement stmt) {
     
         ArrayList<PyObject> rows = new ArrayList<PyObject>();
-        try {
-            stmt.execute(sqlstmt);
+        try {            
+            stmt.execute(sqlstmt);           
             OracleResultSet rs = (OracleResultSet)stmt.executeQuery(sqlstmt);
             ResultSetMetaData rd = rs.getMetaData();
             int cc = rd.getColumnCount();
