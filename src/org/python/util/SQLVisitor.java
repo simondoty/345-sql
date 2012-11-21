@@ -220,7 +220,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 
 		select.getSelectBody().accept(this);
 		
-		System.out.println(select.getWithItemsList());
+		//System.out.println(select.getWithItemsList());
 		//for(Iterator i=select.getWithItemsList().iterator(); i.hasNext();) {
 			//WithItem withItem = (WithItem)i.next();	//columns.add(withItem.getName());
 		//}
@@ -283,7 +283,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		
 		// Adding the filters to SEM_MATCH, e.g WHERE D.GRADES > 80
 		//results in: FILTER( GRADES_D > 80)
-		if ( !filters.isEmpty() && filters.get(0).contains("VISITS") ) {
+		if ( !filters.isEmpty() && subselects.isEmpty() ) {  //filters.get(0).contains("VISITS")
 			//!plainSelect.getWhere().toString().toUpperCase().contains("SELECT")
 			 
 			s += "FILTER ( ";
@@ -378,13 +378,19 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				System.out.println("\t"+fI.next());
 			}
 	}
+	
+	
 	static public String tablename(String item) {
 		if(item.indexOf('.')>0)
 			return item.substring(0,item.indexOf('.'));
 		return "tbl";
 	}
+	
+	// ?BIRTH_YEAR_PETS = PETS.BIRTH_YEAR
 	static public String getFilterTableName(String str) {
-        return (str.substring(0, str.indexOf(" "))).substring(str.lastIndexOf("_") + 1);
+		//String newString = str.substring(0, str.indexOf(" "));
+		//return newString.substring(newString.lastIndexOf("_") + 1);
+         return (str.substring(0, str.indexOf(" "))).substring(str.lastIndexOf("_") + 1);
     }
 	static public String colname(String item) {
 		if(item.indexOf('.')>0)
@@ -451,6 +457,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		t.accept(this);
 		String alias = t.getAlias();
 		tables.add(temp);
+		
 		if(alias == null) 
 			tablesAliases.put(temp,temp);  
 		else 
@@ -592,17 +599,25 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			// if whereclause is a select, don't visit yet
 			System.out.println("Printing out plainSelect.getWhere():  " + plainSelect.getWhere().toString());
 			plainSelect.getWhere().accept(this);
+			System.out.println("Returned from subdselect?");
+			if(temp == null)
+				System.out.println("temp is null!");
+			System.out.println("temp= " + temp);
 			String tableName = getFilterTableName(temp.trim());
+			System.out.println("Built tableName");
 			String key = tableName;
-			String[] whereStrings = plainSelect.getWhere().toString().split(" ");
-			System.out.println("about to build saveName");
-			for(int i = 0; i < whereStrings.length; i++)
-				if(whereStrings[i].toUpperCase().equals("(SELECT"))
-					saveName = whereStrings[0] + "_";
-			System.out.println("saveName: " + saveName);
+			//String[] whereStrings = plainSelect.getWhere().toString().split(" ");
+			//System.out.println("about to build saveName");
+			//for(int i = 0; i < whereStrings.length; i++)
+				//if(whereStrings[i].toUpperCase().equals("(SELECT"))
+					//saveName = whereStrings[0] + "_";
+			//System.out.println("saveName: " + saveName);
+					System.out.println("Made it : 605");
 			String dataValue = temp.substring(temp.lastIndexOf(" ") + 1);
+					System.out.println("Made it :607");
 			if(!isNumeric(dataValue))
 				temp =temp.substring(0, temp.lastIndexOf(" ") + 1) + "\"" + temp.substring(temp.lastIndexOf(" ") + 1) + "\"";
+			System.out.println("Made it : 610");
 			if(!key.equals("tbl")){
 				if(!tablesAliases.containsKey(key))
 					key = (String)getKeyByValue(tablesAliases,tableName);
@@ -610,15 +625,16 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 					ownException = "ORA-00904: \""+tableName+"\".\""+temp.substring(temp.indexOf("?")+1,temp.lastIndexOf("_"))+"\": invalid identifier";
 					return;
 				}
+						System.out.println("Made it : 618");
 				if(tablesAliases.containsKey(tableName)){
 					filters.add(temp.replace(tableName, tablesAliases.get(tableName)));
-					if (saveName != null) {
+				/*	if (saveName != null) {
 						saveName = saveName + "" + tableName;
 						System.out.println("\n\n\nSAVENAME == " + saveName + "\n\n");
 					}
-				}
+				*/}
 			}
-			else{
+			else{ 		System.out.println("Made it : 627");
 				int j = 0;
 				tableName = "";
 				for (String entry : columnsAs.keySet()) {
@@ -641,18 +657,18 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			/*
 			if(wasEquals) { //OK EQUAL STATEMENTS ARE NOT MATCHES, BUT FILTERS?
 				matches.add(temp);
-			} else {
 				filters.add(temp);
 			}
 			*/
 		}
 		
-		
+		System.out.println("Made it : 652");
 		if(plainSelect.getOrderByElements() != null) {
 			for(Iterator i=plainSelect.getOrderByElements().iterator(); i.hasNext();) {
 				OrderByElement item = (OrderByElement)i.next();
 				item.accept(this);
 				if(!(temp.contains("DESC") || temp.contains("ASC"))){
+					System.out.println("HERE 658");
 					String tableName = tablename(temp);
 					String key = tableName; 
 					if(!tablesAliases.containsKey(key))
@@ -667,6 +683,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 						orderby.add(temp);
 				}
 				else{
+				System.out.println("Here 672");
 					int j = 0;
 					temp = temp.trim();
 					String colName = temp.substring(temp.indexOf(" ?") + 2, temp.lastIndexOf("_"));
@@ -752,7 +769,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	
 	try {	
 		
-		System.out.println("Entering Subselect visit method. SQLVIsitor.691. Subselect = " + subSelect);
+		System.out.println("Entering Subselect visit method. SQLVIsitor.755. Subselect = " + subSelect);
 
 		CCJSqlParserManager pm = new CCJSqlParserManager();
 		net.sf.jsqlparser.statement.Statement statement = null;
@@ -765,6 +782,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		int backParen = subSelString.lastIndexOf(')');
 		subSelString = subSelString.substring((frontParen+1), backParen);
 		
+		System.out.println("After String Manip.SQLVIsitor.768. Parsed fine, subSelString= " + subSelString);
 		
 		statement = (net.sf.jsqlparser.statement.Statement)pm.parse(new StringReader(subSelString));
 		
