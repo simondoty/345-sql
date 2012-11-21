@@ -633,6 +633,8 @@ public class PyTuple extends PySequenceList implements List {
     			// SQL Insert Code
     			else if (statement instanceof Select) {
     				try {
+    				
+    			
     				    System.out.println("In try block to of instanceof Select...");
     				 
     					net.sf.jsqlparser.statement.select.Select caststmt =
@@ -652,12 +654,11 @@ public class PyTuple extends PySequenceList implements List {
               			//System.out.println("sqlstmt = \n" + sqlstmt);							    												
     						
     					}
-    					
+    				
 							System.out.println("PyTuple.java:636 - Before runAndOutputTuples(sqlstmt, stmt)");							    					    					
              				//System.out.println("stmt = \n" + stmt);							    												
-
-    					// run the SPARQL and put into list of Tuples.
-    					System.out.println("runandout without visitor. sqltmt: " + sqlstmt);
+                         // run the SPARQL and put into list of Tuples.
+    					//System.out.println("runandout without visitor. sqltmt: " + sqlstmt);
     					runAndOutputTuples(sqlstmt, stmt);
     					
     					

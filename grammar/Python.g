@@ -2034,8 +2034,8 @@ scope connection;
 @init {
     expr etype = null;
 	$connection::url = "jdbc:oracle:thin:@rising-sun.microlab.cs.utexas.edu:1521:orcl";
-	$connection::uname = "CS345_dotysn";
-	$connection::pword = "orcl_dotysn";
+	$connection::uname = "CS345_ecp456";
+	$connection::pword = "orcl_ecp456";
 	$connection::contype = "local";
 }
 @after {

@@ -295,15 +295,17 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
     				s += "?this" + tName + " :" + col + " " + item + " .\n\t";
 				}
 			}
-			s += "FILTER ( ";
-			for(Iterator fI=filters.iterator(); fI.hasNext();) {
-				String item = (String)fI.next();
-				s += item + " ";
-				if (fI.hasNext()) {
-					s += " && ";
+			if (subselects.isEmpty()) {
+				s += "FILTER ( ";
+				for(Iterator fI=filters.iterator(); fI.hasNext();) {
+					String item = (String)fI.next();
+					s += item + " ";
+					if (fI.hasNext()) {
+						s += " && ";
+					}
 				}
+				s += " ) ";
 			}
-			s += " ) ";
 		}
 		
 		
@@ -393,9 +395,9 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	
 	// ?BIRTH_YEAR_PETS = PETS.BIRTH_YEAR
 	static public String getFilterTableName(String str) {
-		//String newString = str.substring(0, str.indexOf(" "));
-		//return newString.substring(newString.lastIndexOf("_") + 1);
-         return (str.substring(0, str.indexOf(" "))).substring(str.lastIndexOf("_") + 1);
+		String newString = str.substring(0, str.indexOf(" "));
+		return newString.substring(newString.lastIndexOf("_") + 1);
+        // return (str.substring(0, str.indexOf(" "))).substring(str.lastIndexOf("_") + 1);
     }
 	static public String colname(String item) {
 		if(item.indexOf('.')>0)
