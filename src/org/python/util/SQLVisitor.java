@@ -290,7 +290,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			for(Iterator fI=filters.iterator(); fI.hasNext();) {
 				String item = (String)fI.next();
 				
-				System.out.println("Printing filter from within for loop: " + item);
+				//System.out.println("Printing filter from within for loop: " + item);
 				//!plainSelect.getWhere().toString().toUpperCase().contains("VISITS")
 				//if(item.contains("VISITS")) {
 				s += item + " ";
@@ -328,10 +328,20 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			System.out.println("subselect element " + i +" is " + subSel);
 		}
 		if(!subselects.isEmpty()) {
-			// TODO this should iterate through these, unless we're only allowing one subQuery
+			// todo this should iterate through these, unless we're only allowing one subQuery
 			//s += "\nwhere " + filters.get(0).toString() + " in (";
+			
 			for(Iterator fI=subselects.iterator(); fI.hasNext();) {
-				String newS = "\nwhere " + saveName + " in ("; 
+				System.out.println("Printing first filter in list: " + filters.get(0));
+				
+				// if we are in a subselect, doesn't the first and only other filter in the filter
+				// list have to be the original where? 
+				String firstFilter = filters.get(0);
+				
+                int equalSign = firstFilter.indexOf('='); // get index of = sign to know where to stop
+				int questionMark = firstFilter.indexOf('?');  // get index of ? in case it's not the first character in filter
+				firstFilter = firstFilter.substring(questionMark + 1, equalSign - 1);
+				String newS = "\n\twhere " + firstFilter + "  in ("; 
 				net.sf.jsqlparser.statement.select.Select caststmt = null;
 				// create select and cast
 				try {				
@@ -354,6 +364,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 
 		}
 		//System.out.println("RDF conversion of select:\n |" + s + "|");		
+		printList("field", filters, false);
 		return s;
 	}
 	public void printList(String field, List<String> list, boolean isHashMap){ 
