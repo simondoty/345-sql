@@ -553,7 +553,7 @@ public class PyTuple extends PySequenceList implements List {
     		// SQL code
     		else if (mode.equals("SQL") && !(asp_select || prolog_select)) {                                               // SQL PROCESSING
     			
-    			System.out.println("Inside SQL Mode");
+    			//System.out.println("Inside SQL Mode");
     			
     			String[] strings = sqlstrings.split(";");
     			int size = Math.max(strings.length - 1, elements.length);
@@ -572,27 +572,26 @@ public class PyTuple extends PySequenceList implements List {
     				}
     			}
     			
-    			System.out.println("Printing sqlstmt. Before setting up CCJsqlparsemanager \n sqlstmt = " + sqlstmt);
+    			//System.out.println("Printing sqlstmt. Before setting up CCJsqlparsemanager \n sqlstmt = " + sqlstmt);
     			
     			CCJSqlParserManager pm = new CCJSqlParserManager();
     			net.sf.jsqlparser.statement.Statement statement = null;
     			
     			
-    			try {
-    			
-    				System.out.println("In try block to set statement = to something...");
+    			try {    			
+    				//System.out.println("In try block to set statement = to something...");
     				statement = (net.sf.jsqlparser.statement.Statement)pm.parse(new StringReader(sqlstmt));
     			}
     			
     			 catch (Exception e) {
     					System.out.println("In catch block to set statement = to something...");
-    				System.out.println(e);
+    					System.out.println(e);
     			}
     			ArrayList<PyObject> rows = new ArrayList<PyObject>();
     			
     			// convert stmt to string
     			sqlstmt = statement.toString();
-    			System.out.println("Printing sqlstmt. After setting up CCJsqlparsemanager \n sqlstmt = " + sqlstmt);
+    			//System.out.println("Printing sqlstmt. After setting up CCJsqlparsemanager \n sqlstmt = " + sqlstmt);
 
     			boolean isRemote = false;
     			if (ctype.equalsIgnoreCase("remote")) isRemote = true;
@@ -632,17 +631,15 @@ public class PyTuple extends PySequenceList implements List {
     			
     			// SQL Insert Code
     			else if (statement instanceof Select) {
-    				try {
-    				
+    				try {		
     			
-    				    System.out.println("In try block to of instanceof Select...");
+    				    //System.out.println("In try block to of instanceof Select...");
     				 
     					net.sf.jsqlparser.statement.select.Select caststmt =
     							(net.sf.jsqlparser.statement.select.Select)statement;
-    					if (ctype.equalsIgnoreCase("local")) {
-    						
+    					if (ctype.equalsIgnoreCase("local")) {    						
     						// printing if creating a visitor    						
-							System.out.println("PyTuple.java:624 - Before creating SQLVisitor.");							
+							//System.out.println("PyTuple.java:624 - Before creating SQLVisitor.");							
 							
 							SQLVisitor visitor = new SQLVisitor(conn, server, uname, pword);
 							
@@ -650,23 +647,22 @@ public class PyTuple extends PySequenceList implements List {
     					sqlstmt = visitor.getSelect(caststmt);
     					System.out.println("RDF conversion of select:\n |" + sqlstmt.toString() + "|");    
     					
-						System.out.println("PyTuple.java:631 - After sqlstmt = visitor.getSelect(caststmt)");							    					
+    					//System.out.println("PyTuple.java:631 - After sqlstmt = visitor.getSelect(caststmt)");							    					
               			//System.out.println("sqlstmt = \n" + sqlstmt);							    												
     						
     					}
     				
-							System.out.println("PyTuple.java:636 - Before runAndOutputTuples(sqlstmt, stmt)");							    					    					
+							//System.out.println("PyTuple.java:636 - Before runAndOutputTuples(sqlstmt, stmt)");							    					    					
              				//System.out.println("stmt = \n" + stmt);							    												
                          // run the SPARQL and put into list of Tuples.
     					//System.out.println("runandout without visitor. sqltmt: " + sqlstmt);
-    					runAndOutputTuples(sqlstmt, stmt);
     					
+    					// send RDF to oracle
+    					runAndOutputTuples(sqlstmt, stmt);    					
     					
     				} catch (Exception e) {
     				
-    					System.out.println("PyTuple:661:In catch block of of instanceof Select. Exception is: " + e.toString());
-    					
-    					
+    					System.out.println("PyTuple:661:In catch block of of instanceof Select. Exception is: " + e.toString());      					
     					//PyObject[] temp = new PyObject[1];
     					//temp[0] = new PyString(e.toString());
     					//rows.add(new PyTuple(temp));

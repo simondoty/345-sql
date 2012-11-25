@@ -29,7 +29,8 @@ import oracle.jdbc.OracleResultSet;
 import oracle.jdbc.pool.OracleDataSource;
 
 import org.python.core.SPARQLDoer;
-import org.python.util.SQLValidator;
+import org.python.util.SQLValidator; // added
+
 import java.util.List;
 import java.util.Iterator;
 import java.util.ArrayList;
@@ -67,7 +68,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	public static OracleConnection connection;
 	public static Statement stmt;
 	public static SPARQLDoer sd;
-	public static SQLValidator validator;
+	public static SQLValidator validator; // added to vlidate sql
 	public String saveName = "";
 	
 
@@ -205,9 +206,9 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
     }
 
 	public String getSelect(Select select) throws SQLException, JSQLParserException, ownIllegalSQLException{
-		System.out.println("SQLVisitor:206 - inside getSelect(Select select).");		
+		//System.out.println("SQLVisitor:206 - inside getSelect(Select select).");		
 		
-		validator = new SQLValidator();
+		validator = new SQLValidator(); // added
 		
 		boolean debugging = true;
 		String s = "SELECT ";
@@ -295,22 +296,28 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
     				s += "?this" + tName + " :" + col + " " + item + " .\n\t";
 				}
 			}
-			System.out.println("Inside !filters.isEmpty(). 298. Printing out filters: ");
-			for(int i = 0; i < filters.size();i++)
-				System.out.println("Filter " + i + " " + filters.get(i));
+			
+			//for(int i = 0; i < filters.size();i++)
+				//System.out.println("Filter " + i + " " + filters.get(i));
 			
 			// want to print out Filters in RDF ONLY if we are at the bottom of a subselect, OR
 			// if there are two filters and one is  not a subselect, then print just that one.	
-			if (subselects.isEmpty() || filters.size() > 1) {				
-				if(filters.size() > 1 && !subselects.isEmpty()) {
+			
+			if (subselects.isEmpty() || filters.size() > 1) {
+							
+				//if filter list has multiple items and there are subselects, only print the filters that don't contian " ".			
+				if(filters.size() > 1 && !subselects.isEmpty()) { // added
 				s += "FILTER ( ";
 					/*for(Iterator fI=filters.iterator(); fI.hasNext();) {
+						
 						String item = (String)fI.next();
-						s += item + " ";
-						if (fI.hasNext()) {
-							s += " && ";
+						if(!item.contains("\"")); {
+							s += item + " ";
+							if (fI.hasNext()) {
+								s += " && ";
+							}
 						}
-					}*/
+					} */
 					String item = (String)filters.get(0);
 					s += item + " ";
 					s += " ) ";
@@ -355,26 +362,24 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		for(String subSel: subselects) {
 			System.out.println("subselect element " + i +" is " + subSel);
 		}
-		if(!subselects.isEmpty()) {
-			// todo this should iterate through these, unless we're only allowing one subQuery
-			//s += "\nwhere " + filters.get(0).toString() + " in (";
+		
+		if(!subselects.isEmpty()) {		
 			
 			for(Iterator fI=subselects.iterator(); fI.hasNext();) {
-				System.out.println("Printing first filter in list: " + filters.get(0));
-				
+						
 				// if we are in a subselect, doesn't the first and only other filter in the filter
-				// list have to be the original where? 
-				System.out.println("Printing size of filter list: " + filters.size());
-				String firstFilter = filters.get(filters.size() - 1);                 /*String firstFilter = filters.get(0); original*/
+				// list have to be the original where? 	
 				
+							
+				String firstFilter = filters.get(filters.size() - 1);    /*String firstFilter = filters.get(0); original*/				
                 int equalSign = firstFilter.indexOf('='); // get index of = sign to know where to stop
 				int questionMark = firstFilter.indexOf('?');  // get index of ? in case it's not the first character in filter
 				firstFilter = firstFilter.substring(questionMark + 1, equalSign - 1);
 				String newS = "\n\twhere " + firstFilter + "  in ("; 
 				net.sf.jsqlparser.statement.select.Select caststmt = null;
-				// create select and cast
+				
 				try {	
-				   System.out.println(" In try block of subselect 356.");			
+				   //System.out.println(" In try block of subselect 356.");			
 					net.sf.jsqlparser.statement.Statement statement = null;
 					statement = (net.sf.jsqlparser.statement.Statement)parserManager.parse(new StringReader((String)fI.next()));		
 					caststmt = (net.sf.jsqlparser.statement.select.Select)statement;
@@ -383,7 +388,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				}
 				
 				newS += getSelect(caststmt);
-				
+								
 				//String item = (String)fI.next();
 				s += newS + " ";
 				if (fI.hasNext()) {
@@ -468,7 +473,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		return tCols;
 	}
 	public void visit(PlainSelect plainSelect) { 
-		System.out.println("SQLVisitor:384 - inside visit(PlainSelect plainSelect).");	
+		//System.out.println("SQLVisitor:384 - inside visit(PlainSelect plainSelect).");	
 	
 		ownException = "";
 		//will contain <nameOfTable, columnsOfTable>
@@ -687,7 +692,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 			*/
 	
 		
-		System.out.println("Made it : 652");
+		
 		if(plainSelect.getOrderByElements() != null) {
 			for(Iterator i=plainSelect.getOrderByElements().iterator(); i.hasNext();) {
 				OrderByElement item = (OrderByElement)i.next();
@@ -780,14 +785,11 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 	public void visit(Table tableName) {
 		temp = tableName.getWholeTableName();
 	}
-
-	public void visit(SubSelect subSelect) {
-		//subselects.add(subSelect);
 	
-	try {	
+	// Added
+	public void visit(SubSelect subSelect) {
 		
-		System.out.println("Entering Subselect visit method. SQLVIsitor.755. Subselect = " + subSelect);
-
+	try {		
 		CCJSqlParserManager pm = new CCJSqlParserManager();
 		net.sf.jsqlparser.statement.Statement statement = null;
 		       
@@ -799,26 +801,14 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		int backParen = subSelString.lastIndexOf(')');
 		subSelString = subSelString.substring((frontParen+1), backParen);
 		
-		System.out.println("After String Manip.SQLVIsitor.768. Parsed fine, subSelString= " + subSelString);
+		
 		
 		statement = (net.sf.jsqlparser.statement.Statement)pm.parse(new StringReader(subSelString));
 		
 		net.sf.jsqlparser.statement.select.Select caststmt = (net.sf.jsqlparser.statement.select.Select)statement;
 		
 		subselects.add(caststmt.toString());
-		// try calling getSelect with
-		//caststmt.getSelectBody().accept(this);
-	    //System.out.println("Trying to print out visitor connection info:  " + uname + pword);	
-		/*SQLVisitor visitor2 = new SQLVisitor(connection, url, uname, pword);
-		
-		String temp2 = visitor2.getSelect(caststmt);
-	    
-		System.out.println("Temp2 = " + temp2);
-		temp = temp + temp2;
-
-		// need to turn this into sparql.....
-        System.out.println("sqlvisitor.721. Combined temp2 and temp. \ntemp =  " + temp);
-		*/
+	
 		} catch (Exception e) {
 		System.out.println("sqlvisitor:740:In catch block of of subselcet...");
 	    }
