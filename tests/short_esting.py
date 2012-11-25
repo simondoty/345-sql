@@ -52,40 +52,63 @@ Pritning ANIMALTYPES table:
 | DOG            | 2002           | 
  ---------------- ----------------
 """
+
+# working - multi-table subquery projecting one column
+test0=SELECT NAME FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = 1001); 
+
+# working - multi-table subquery projecting multiple columns
+test1=SELECT VETID, NAME FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = 1001);
+
+# working - multi-table subquery projecting all columns
+test2=SELECT * FROM PETS WHERE PETID = (SELECT PETID FROM VISITS WHERE TIME = 2.9);
+
+
+"""
+
+
 ########## still isn't working. get string out of bounds at index -14. doesn't appear to be from birth_year either####
 #output6=SELECT PETS.NAME, PETS.TYPEID FROM PETS WHERE PETS.TYPEID = (SELECT PETS.TYPEID FROM PETS WHERE PETS.BIRTH_YEAR = (SELECT PETS.BIRTH_YEAR FROM PETS WHERE PETS.PETID = 1001));
 
 # ours is working
-#output7=SELECT NAME FROM VETS WHERE VETS.VETID = (SELECT VISITS.VETID FROM VISITS WHERE VISITS.VETID = (SELECT VETS.VETID FROM VETS WHERE VETS.VETID = 4001));
+output7=SELECT NAME FROM VETS WHERE VETS.VETID = (SELECT VISITS.VETID FROM VISITS WHERE VISITS.VETID = (SELECT VETS.VETID FROM VETS WHERE VETS.VETID = 4001));
 
 # ours is working
-#output8=SELECT VETID, NAME FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = 1001);
+output8=SELECT VETID, NAME FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = 1001);
+
 
 # ours is working
-#output=SELECT NAME FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = 1001); 
+output1=SELECT * FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = (SELECT PETID FROM PETS WHERE NAME = 'NEMO')); 
 
 # ours is working
-#output1=SELECT * FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = (SELECT PETID FROM PETS WHERE NAME = 'NEMO')); 
+output9=SELECT * FROM PETS WHERE PETS.TYPEID = (SELECT ANIMALTYPES.TYPEID FROM ANIMALTYPES WHERE ANIMALTYPES.SPECIES = 'CAT');
 
-# ours is working
-#output9=SELECT * FROM PETS WHERE PETS.TYPEID = (SELECT ANIMALTYPES.TYPEID FROM ANIMALTYPES WHERE ANIMALTYPES.SPECIES = 'CAT');
 # our is working
-#output2=SELECT * FROM PETS, VISITS WHERE PETS.TYPEID = (SELECT ANIMALTYPES.TYPEID FROM ANIMALTYPES WHERE ANIMALTYPES.SPECIES = 'CAT');
+output2=SELECT * FROM PETS, VISITS WHERE PETS.TYPEID = (SELECT ANIMALTYPES.TYPEID FROM ANIMALTYPES WHERE ANIMALTYPES.SPECIES = 'CAT');
 
 #ours is working
-#output4=SELECT * FROM VISITS WHERE PRICE = 80;
+output4=SELECT * FROM VISITS WHERE PRICE = 80;
 
 ########### isn't working, need to add second wherefrag?...############################
-#output5=SELECT * FROM VISITS WHERE PRICE > 80 AND PETID = (SELECT PETID FROM PETS WHERE NAME = 'NEMO');
+output5=SELECT * FROM VISITS WHERE PRICE > 80 AND PETID = (SELECT PETID FROM PETS WHERE NAME = 'NEMO');
 
 # ours is working - so birth_year seems to be working for single queries
-#output10=SELECT * FROM PETS WHERE BIRTH_YEAR = 2006;
+output10=SELECT * FROM PETS WHERE BIRTH_YEAR = 2006;
 
 # ours is working, so birth_year works fine...
-#output11=SELECT * FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = (SELECT PETID FROM PETS WHERE BIRTH_YEAR = 2005));
+output11=SELECT * FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = (SELECT PETID FROM PETS WHERE BIRTH_YEAR = 2005));
 
 #ours is working;  this returns multipls rows of correct answers. is it even supposed to be able to do this?
-#output12=SELECT * FROM ANIMALTYPES WHERE TYPEID = (SELECT TYPEID FROM PETS WHERE PETID = (SELECT PETID FROM VISITS WHERE TIME = 2));
+output12=SELECT * FROM ANIMALTYPES WHERE TYPEID = (SELECT TYPEID FROM PETS WHERE PETID = (SELECT PETID FROM VISITS WHERE TIME = 2));
+
+output13=SELECT * FROM VISITS WHERE PRICE > 80 AND PETID = 1006;
+
+output14=SELECT * FROM VISITS WHERE PRICE > 80 AND PETID = (SELECT PETID FROM PETS WHERE TYPEID > 2001 AND NAME = 'NEMO');
+
+output15=SELECT * FROM PETS WHERE BIRTH_YEAR = 2010 AND TYPEID = 2002;
+
+# ours is working
+output16=SELECT * FROM VISITS WHERE PETID = (SELECT PETID FROM PETS WHERE PETS.TYPEID > 2001 AND NAME = 'NEMO');
+
 
 
 #print "Printing PETS table: "
@@ -97,20 +120,37 @@ Pritning ANIMALTYPES table:
 #print "Pritning ANIMALTYPES table: "
 #neatPrintTable(outputANIMALTYPES);
 
-#neatPrintTable(output1);
-#neatPrintTable(output2);
+"""
+
+print "\n********Pritning test0 - SELECT NAME FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = 1001); "
+neatPrintTable(test0);
+
+print "\n********Pritning test1 - SELECT VETID, NAME FROM VETS WHERE VETID = (SELECT VETID FROM VISITS WHERE PETID = 1001); "
+neatPrintTable(test1);
+
+print "\n********Pritning test2 - SELECT * FROM PETS WHERE PETID = (SELECT PETID FROM VISITS WHERE TIME = 2.9); "
+neatPrintTable(test2);
+
+"""
+neatPrintTable(output1);
+neatPrintTable(output2);
 #neatPrintTable(output3);   
-#neatPrintTable(output4);
-#neatPrintTable(output5);   # not working
+neatPrintTable(output4);
+neatPrintTable(output5);   # not working
 #neatPrintTable(output6);   # not working string out of bounds
-#neatPrintTable(output7);
-#neatPrintTable(output8);
-#neatPrintTable(output9);
-#neatPrintTable(output10);
-#neatPrintTable(output11);
-#neatPrintTable(output12);
+neatPrintTable(output7);
+neatPrintTable(output8);
+neatPrintTable(output9);
+neatPrintTable(output10);
+neatPrintTable(output11);
+neatPrintTable(output12);
+neatPrintTable(output13);
+neatPrintTable(output14);
+neatPrintTable(output15);
+neatPrintTable(output16);
+#neatPrintTable(output17);
 
-
+"""
 #output=SELECT * FROM PETS	WHERE PETS.TYPEID = (SELECT	PETS.TYPEID	FROM PETS WHERE	PETS.BIRTH_YEAR	= (SELECT PETS.BIRTH_YEAR FROM PETS WHERE PETS.PETID = 1001));
 #output= SELECT PETS.NAME, PETS.TYPEID FROM PETS WHERE PETS.PETID = (SELECT PETS.PETID FROM PETS WHERE PETS.PETID = 1001);
 #output= SELECT PETS.NAME, PETS.TYPEID FROM PETS WHERE PETS.PETID = (SELECT PETS.PETID FROM PETS WHERE PETS.PETID = (SELECT PETS.PETID FROM PETS WHERE PETS.PETID = 1001));

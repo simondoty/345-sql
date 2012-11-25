@@ -2211,7 +2211,7 @@ sqlsubquery
 	;
 subquery
 	:
-	 s7=sqlquery RPAREN /* {$sql_stmt::temp+=$s7.text+"";} */
+	 s7=sqlquery RPAREN 
 	;
 
 

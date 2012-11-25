@@ -295,16 +295,37 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
     				s += "?this" + tName + " :" + col + " " + item + " .\n\t";
 				}
 			}
-			if (subselects.isEmpty()) {
+			System.out.println("Inside !filters.isEmpty(). 298. Printing out filters: ");
+			for(int i = 0; i < filters.size();i++)
+				System.out.println("Filter " + i + " " + filters.get(i));
+			
+			// want to print out Filters in RDF ONLY if we are at the bottom of a subselect, OR
+			// if there are two filters and one is  not a subselect, then print just that one.	
+			if (subselects.isEmpty() || filters.size() > 1) {				
+				if(filters.size() > 1 && !subselects.isEmpty()) {
 				s += "FILTER ( ";
-				for(Iterator fI=filters.iterator(); fI.hasNext();) {
-					String item = (String)fI.next();
+					/*for(Iterator fI=filters.iterator(); fI.hasNext();) {
+						String item = (String)fI.next();
+						s += item + " ";
+						if (fI.hasNext()) {
+							s += " && ";
+						}
+					}*/
+					String item = (String)filters.get(0);
 					s += item + " ";
-					if (fI.hasNext()) {
-						s += " && ";
+					s += " ) ";
+				}				
+				else {				
+					s += "FILTER ( ";
+					for(Iterator fI=filters.iterator(); fI.hasNext();) {
+						String item = (String)fI.next();
+						s += item + " ";
+						if (fI.hasNext()) {
+							s += " && ";
+						}
 					}
+					s += " ) ";
 				}
-				s += " ) ";
 			}
 		}
 		
@@ -343,7 +364,8 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				
 				// if we are in a subselect, doesn't the first and only other filter in the filter
 				// list have to be the original where? 
-				String firstFilter = filters.get(0);
+				System.out.println("Printing size of filter list: " + filters.size());
+				String firstFilter = filters.get(filters.size() - 1);                 /*String firstFilter = filters.get(0); original*/
 				
                 int equalSign = firstFilter.indexOf('='); // get index of = sign to know where to stop
 				int questionMark = firstFilter.indexOf('?');  // get index of ? in case it's not the first character in filter
@@ -351,7 +373,8 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 				String newS = "\n\twhere " + firstFilter + "  in ("; 
 				net.sf.jsqlparser.statement.select.Select caststmt = null;
 				// create select and cast
-				try {				
+				try {	
+				   System.out.println(" In try block of subselect 356.");			
 					net.sf.jsqlparser.statement.Statement statement = null;
 					statement = (net.sf.jsqlparser.statement.Statement)parserManager.parse(new StringReader((String)fI.next()));		
 					caststmt = (net.sf.jsqlparser.statement.select.Select)statement;
@@ -371,7 +394,7 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 
 		}
 		//System.out.println("RDF conversion of select:\n |" + s + "|");		
-		printList("field", filters, false);
+		//printList("field", filters, false);
 		return s;
 	}
 	public void printList(String field, List<String> list, boolean isHashMap){ 
