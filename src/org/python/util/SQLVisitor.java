@@ -358,10 +358,10 @@ public class SQLVisitor implements SelectVisitor, FromItemVisitor, ExpressionVis
 		s += "',\n\t SEM_MODELS('RDF_MODEL_" + uname + "'), ";
 		s += "null,\n\t SEM_ALIASES( SEM_ALIAS('', 'http://www.example.org/people.owl#')), null) )";
 		
-		int i = 0;
-		for(String subSel: subselects) {
-			System.out.println("subselect element " + i +" is " + subSel);
-		}
+		//int i = 0;
+		//for(String subSel: subselects) {
+			//System.out.println("subselect element " + i +" is " + subSel);
+		//}
 		
 		if(!subselects.isEmpty()) {		
 			
