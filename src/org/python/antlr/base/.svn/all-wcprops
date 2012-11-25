@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/5695/trunk/jython/src/org/python/antlr/base
+END
+mod.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/5695/trunk/jython/src/org/python/antlr/base/mod.java
+END
+slice.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/5695/trunk/jython/src/org/python/antlr/base/slice.java
+END
+excepthandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/5695/trunk/jython/src/org/python/antlr/base/excepthandler.java
+END
+stmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5695/trunk/jython/src/org/python/antlr/base/stmt.java
+END
+expr.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5695/trunk/jython/src/org/python/antlr/base/expr.java
+END

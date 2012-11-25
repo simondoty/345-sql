@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/7232/trunk/jython/Lib/test/output
+END
+test_janoninner
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/2353/trunk/jython/Lib/test/output/test_janoninner
+END
+test_jser
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/2353/trunk/jython/Lib/test/output/test_jser
+END
+test_methods
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/2353/trunk/jython/Lib/test/output/test_methods
+END
+test_jsubclass
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/2353/trunk/jython/Lib/test/output/test_jsubclass
+END
+test_jbasic
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/2353/trunk/jython/Lib/test/output/test_jbasic
+END
+test_javalist
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/2543/trunk/jython/Lib/test/output/test_javalist
+END
+test_types_pyc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/6317/trunk/jython/Lib/test/output/test_types_pyc
+END

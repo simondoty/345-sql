@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jython/!svn/ver/7038/trunk/jython/tests/modjy/lib_python_folder/mock_framework/web/handlers
+END
+wsgi_handlers.py
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/lib_python_folder/mock_framework/web/handlers/wsgi_handlers.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/lib_python_folder/mock_framework/web/handlers/__init__.py
+END

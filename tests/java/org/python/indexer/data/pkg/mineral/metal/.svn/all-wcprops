@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/mineral/metal
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/mineral/metal/__init__.py
+END
+gold.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/mineral/metal/gold.py
+END
+lead.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/mineral/metal/lead.py
+END
+iron.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/mineral/metal/iron.py
+END

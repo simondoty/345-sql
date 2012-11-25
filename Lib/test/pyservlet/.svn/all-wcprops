@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jython/!svn/ver/6818/trunk/jython/Lib/test/pyservlet
+END
+empty.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/6490/trunk/jython/Lib/test/pyservlet/empty.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/6490/trunk/jython/Lib/test/pyservlet/__init__.py
+END
+basic.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/6490/trunk/jython/Lib/test/pyservlet/basic.py
+END
+increment.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/6490/trunk/jython/Lib/test/pyservlet/increment.py
+END
+filter.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/6492/trunk/jython/Lib/test/pyservlet/filter.py
+END
+updated_basic.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/6490/trunk/jython/Lib/test/pyservlet/updated_basic.py
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/81702/python/branches/release26-maint/Lib/lib-tk
+END
+tkMessageBox.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/79130/python/branches/release26-maint/Lib/lib-tk/tkMessageBox.py
+END
+tkFileDialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/tkFileDialog.py
+END
+FileDialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/FileDialog.py
+END
+Dialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/Dialog.py
+END
+tkColorChooser.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projects/!svn/ver/68011/python/branches/release26-maint/Lib/lib-tk/tkColorChooser.py
+END
+Tkdnd.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/Tkdnd.py
+END
+Tix.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/72279/python/branches/release26-maint/Lib/lib-tk/Tix.py
+END
+tkFont.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/tkFont.py
+END
+tkCommonDialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/tkCommonDialog.py
+END
+tkSimpleDialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/tkSimpleDialog.py
+END
+SimpleDialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/SimpleDialog.py
+END
+Tkconstants.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/Tkconstants.py
+END
+Canvas.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/lib-tk/Canvas.py
+END
+ScrolledText.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/68007/python/branches/release26-maint/Lib/lib-tk/ScrolledText.py
+END
+turtle.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/79476/python/branches/release26-maint/Lib/lib-tk/turtle.py
+END
+Tkinter.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/73770/python/branches/release26-maint/Lib/lib-tk/Tkinter.py
+END
+FixTk.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/81702/python/branches/release26-maint/Lib/lib-tk/FixTk.py
+END

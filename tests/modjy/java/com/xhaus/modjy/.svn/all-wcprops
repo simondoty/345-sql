@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/7022/trunk/jython/tests/modjy/java/com/xhaus/modjy
+END
+ModjyTestPostData.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/7022/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestPostData.java
+END
+ModjyTestEnviron.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6493/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestEnviron.java
+END
+ModjyTestInterpreterLifecycle.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jython/!svn/ver/6859/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestInterpreterLifecycle.java
+END
+ModjyTestContentHeaders.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jython/!svn/ver/6842/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestContentHeaders.java
+END
+ModjyTestReturnIterable.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jython/!svn/ver/6493/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestReturnIterable.java
+END
+ModjyTestWSGIStreams.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jython/!svn/ver/6493/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestWSGIStreams.java
+END
+ModjyTestAppInvocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/6951/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestAppInvocation.java
+END
+ModjyTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jython/!svn/ver/7022/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestBase.java
+END
+ModjyTestWebInf.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jython/!svn/ver/6493/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestWebInf.java
+END
+ModjyTestWriteCallable.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/6493/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestWriteCallable.java
+END
+ModjyTestHeaders.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6493/trunk/jython/tests/modjy/java/com/xhaus/modjy/ModjyTestHeaders.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/jython/!svn/ver/7022/trunk/jython/Lib/modjy
+END
+modjy_publish.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/6957/trunk/jython/Lib/modjy/modjy_publish.py
+END
+modjy_wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/7022/trunk/jython/Lib/modjy/modjy_wsgi.py
+END
+modjy_write.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/jython/!svn/ver/6842/trunk/jython/Lib/modjy/modjy_write.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/6842/trunk/jython/Lib/modjy/__init__.py
+END
+modjy_response.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/6842/trunk/jython/Lib/modjy/modjy_response.py
+END
+modjy.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jython/!svn/ver/6842/trunk/jython/Lib/modjy/modjy.py
+END
+modjy_exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/6842/trunk/jython/Lib/modjy/modjy_exceptions.py
+END
+modjy_impl.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/6842/trunk/jython/Lib/modjy/modjy_impl.py
+END
+modjy_log.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/6842/trunk/jython/Lib/modjy/modjy_log.py
+END
+modjy_params.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/6842/trunk/jython/Lib/modjy/modjy_params.py
+END

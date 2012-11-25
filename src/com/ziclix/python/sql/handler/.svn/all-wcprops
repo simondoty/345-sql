@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/handler
+END
+RowIdHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/handler/RowIdHandler.java
+END
+InformixDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/handler/InformixDataHandler.java
+END
+UpdateCountDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/handler/UpdateCountDataHandler.java
+END
+PostgresqlDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/handler/PostgresqlDataHandler.java
+END
+MySQLDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/handler/MySQLDataHandler.java
+END
+OracleDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/handler/OracleDataHandler.java
+END
+SQLServerDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/handler/SQLServerDataHandler.java
+END

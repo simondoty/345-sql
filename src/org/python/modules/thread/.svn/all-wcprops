@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/7187/trunk/jython/src/org/python/modules/thread
+END
+PyLock.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/4422/trunk/jython/src/org/python/modules/thread/PyLock.java
+END
+PyLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/7187/trunk/jython/src/org/python/modules/thread/PyLocal.java
+END
+PyLocalDerived.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/6904/trunk/jython/src/org/python/modules/thread/PyLocalDerived.java
+END
+thread.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6814/trunk/jython/src/org/python/modules/thread/thread.java
+END

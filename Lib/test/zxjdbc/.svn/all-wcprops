@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/7292/trunk/jython/Lib/test/zxjdbc
+END
+dbextstest.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/7289/trunk/jython/Lib/test/zxjdbc/dbextstest.py
+END
+runner.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/7289/trunk/jython/Lib/test/zxjdbc/runner.py
+END
+zxtest.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/7289/trunk/jython/Lib/test/zxjdbc/zxtest.py
+END
+sptest.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/7289/trunk/jython/Lib/test/zxjdbc/sptest.py
+END
+jndi.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/7289/trunk/jython/Lib/test/zxjdbc/jndi.py
+END
+test_zxjdbc_dbapi20.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/7292/trunk/jython/Lib/test/zxjdbc/test_zxjdbc_dbapi20.py
+END
+test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/jython/!svn/ver/2101/trunk/jython/Lib/test/zxjdbc/test.xml
+END

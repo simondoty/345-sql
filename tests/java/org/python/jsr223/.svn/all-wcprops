@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/7188/trunk/jython/tests/java/org/python/jsr223
+END
+PythonCallable.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/7180/trunk/jython/tests/java/org/python/jsr223/PythonCallable.java
+END
+ScriptEngineIOTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/6618/trunk/jython/tests/java/org/python/jsr223/ScriptEngineIOTest.java
+END
+ScriptEngineTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/7188/trunk/jython/tests/java/org/python/jsr223/ScriptEngineTest.java
+END

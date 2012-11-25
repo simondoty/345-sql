@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types
+END
+NType.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NType.java
+END
+NUnknownType.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NUnknownType.java
+END
+NDictType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NDictType.java
+END
+NInstanceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NInstanceType.java
+END
+NClassType.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NClassType.java
+END
+NModuleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NModuleType.java
+END
+NUnionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NUnionType.java
+END
+NTupleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NTupleType.java
+END
+NFuncType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NFuncType.java
+END
+NListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6990/trunk/jython/src/org/python/indexer/types/NListType.java
+END

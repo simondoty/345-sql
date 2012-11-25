@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/jython/!svn/ver/6818/trunk/jython/Lib/compiler
+END
+pycodegen.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/6188/trunk/jython/Lib/compiler/pycodegen.py
+END
+transformer.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/6188/trunk/jython/Lib/compiler/transformer.py
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/83540/python/branches/release26-maint/Lib/sqlite3/test
+END
+transactions.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sqlite3/test/transactions.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sqlite3/test/__init__.py
+END
+dbapi.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/78699/python/branches/release26-maint/Lib/sqlite3/test/dbapi.py
+END
+regression.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/projects/!svn/ver/79203/python/branches/release26-maint/Lib/sqlite3/test/regression.py
+END
+py25tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sqlite3/test/py25tests.py
+END
+hooks.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sqlite3/test/hooks.py
+END
+types.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/83540/python/branches/release26-maint/Lib/sqlite3/test/types.py
+END
+dump.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sqlite3/test/dump.py
+END
+factory.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sqlite3/test/factory.py
+END
+userfunctions.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/projects/!svn/ver/83540/python/branches/release26-maint/Lib/sqlite3/test/userfunctions.py
+END

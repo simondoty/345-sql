@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/83594/python/branches/release26-maint/Lib/curses
+END
+ascii.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/curses/ascii.py
+END
+textpad.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/curses/textpad.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/curses/__init__.py
+END
+panel.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/curses/panel.py
+END
+wrapper.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/83594/python/branches/release26-maint/Lib/curses/wrapper.py
+END
+has_key.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/curses/has_key.py
+END

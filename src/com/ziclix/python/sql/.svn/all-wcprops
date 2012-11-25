@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/7292/trunk/jython/src/com/ziclix/python/sql
+END
+DateFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/DateFactory.java
+END
+WarningEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/WarningEvent.java
+END
+PyExtendedCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/7292/trunk/jython/src/com/ziclix/python/sql/PyExtendedCursor.java
+END
+Jython22DataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/Jython22DataHandler.java
+END
+JavaDateFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/JavaDateFactory.java
+END
+DataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/DataHandler.java
+END
+PyConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/7292/trunk/jython/src/com/ziclix/python/sql/PyConnection.java
+END
+WarningListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/WarningListener.java
+END
+PyStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/7292/trunk/jython/src/com/ziclix/python/sql/PyStatement.java
+END
+FilterDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/FilterDataHandler.java
+END
+DBApiType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/DBApiType.java
+END
+zxJDBC.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/7292/trunk/jython/src/com/ziclix/python/sql/zxJDBC.java
+END
+PyCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/7292/trunk/jython/src/com/ziclix/python/sql/PyCursor.java
+END
+Procedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/Procedure.java
+END
+Fetch.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/Fetch.java
+END
+JDBC20DataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/JDBC20DataHandler.java
+END
+JDBC30DataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/JDBC30DataHandler.java
+END

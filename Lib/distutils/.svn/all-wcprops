@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/6818/trunk/jython/Lib/distutils
+END
+spawn.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/distutils/spawn.py
+END
+file_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/distutils/file_util.py
+END
+ccompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/distutils/ccompiler.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/6766/trunk/jython/Lib/distutils/util.py
+END
+sysconfig.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/distutils/sysconfig.py
+END
+jythoncompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/4157/trunk/jython/Lib/distutils/jythoncompiler.py
+END

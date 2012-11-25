@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro
+END
+FirstAndPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/FirstAndPost.java
+END
+PostAndFirst.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/PostAndFirst.java
+END
+SecondPredefinedGetitem.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/SecondPredefinedGetitem.java
+END
+PostdefinedGetitem.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/PostdefinedGetitem.java
+END
+FirstAndSecond.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/FirstAndSecond.java
+END
+SecondAndFirst.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/SecondAndFirst.java
+END
+ConfusedOnGetitemAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/ConfusedOnGetitemAdd.java
+END
+FirstPredefinedGetitem.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/FirstPredefinedGetitem.java
+END
+ConfusedOnImport.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/ConfusedOnImport.java
+END
+GetitemAdder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/5976/trunk/jython/tests/java/org/python/tests/mro/GetitemAdder.java
+END

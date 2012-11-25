@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/jython/!svn/ver/7282/trunk/jython/Lib/pawt
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jython/!svn/ver/6640/trunk/jython/Lib/pawt/__init__.py
+END
+colors.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jython/!svn/ver/6640/trunk/jython/Lib/pawt/colors.py
+END
+swing.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jython/!svn/ver/6640/trunk/jython/Lib/pawt/swing.py
+END

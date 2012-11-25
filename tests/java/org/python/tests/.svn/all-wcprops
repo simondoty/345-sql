@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/tests
+END
+SomePyMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/5804/trunk/jython/tests/java/org/python/tests/SomePyMethods.java
+END
+BadStaticInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jython/!svn/ver/5804/trunk/jython/tests/java/org/python/tests/BadStaticInitializer.java
+END
+OnlySubclassable.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/5800/trunk/jython/tests/java/org/python/tests/OnlySubclassable.java
+END
+Child2.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/6444/trunk/jython/tests/java/org/python/tests/Child2.java
+END
+SubVisible.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/5801/trunk/jython/tests/java/org/python/tests/SubVisible.java
+END
+OtherSubVisible.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/5804/trunk/jython/tests/java/org/python/tests/OtherSubVisible.java
+END
+VisibilityResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/5801/trunk/jython/tests/java/org/python/tests/VisibilityResults.java
+END
+HiddenSuper.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/5804/trunk/jython/tests/java/org/python/tests/HiddenSuper.java
+END
+BeanImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jython/!svn/ver/5839/trunk/jython/tests/java/org/python/tests/BeanImplementation.java
+END
+SerializationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/tests/SerializationTest.java
+END
+RespectJavaAccessibility.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jython/!svn/ver/6266/trunk/jython/tests/java/org/python/tests/RespectJavaAccessibility.java
+END
+Matryoshka.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/5845/trunk/jython/tests/java/org/python/tests/Matryoshka.java
+END
+Listenable.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/3786/trunk/jython/tests/java/org/python/tests/Listenable.java
+END
+Callbacker.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/5839/trunk/jython/tests/java/org/python/tests/Callbacker.java
+END
+InterfaceCombination.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jython/!svn/ver/5739/trunk/jython/tests/java/org/python/tests/InterfaceCombination.java
+END
+Child.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/5936/trunk/jython/tests/java/org/python/tests/Child.java
+END
+Invisible.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/5800/trunk/jython/tests/java/org/python/tests/Invisible.java
+END
+Coercions.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/5979/trunk/jython/tests/java/org/python/tests/Coercions.java
+END
+BeanInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/5845/trunk/jython/tests/java/org/python/tests/BeanInterface.java
+END
+OwnMethodCaller.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/6264/trunk/jython/tests/java/org/python/tests/OwnMethodCaller.java
+END
+ToUnicode.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6996/trunk/jython/tests/java/org/python/tests/ToUnicode.java
+END
+Parent.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/5936/trunk/jython/tests/java/org/python/tests/Parent.java
+END
+VisibleOverride.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/4221/trunk/jython/tests/java/org/python/tests/VisibleOverride.java
+END
+Visible.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/5982/trunk/jython/tests/java/org/python/tests/Visible.java
+END
+CustomizableMapHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6304/trunk/jython/tests/java/org/python/tests/CustomizableMapHolder.java
+END
+ExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/tests/ExceptionTest.java
+END
+RedundantInterfaceDeclarations.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/jython/!svn/ver/6567/trunk/jython/tests/java/org/python/tests/RedundantInterfaceDeclarations.java
+END

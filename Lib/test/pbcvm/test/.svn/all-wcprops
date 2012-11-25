@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/6818/trunk/jython/Lib/test/pbcvm/test
+END
+test_exceptions_pyc.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6317/trunk/jython/Lib/test/pbcvm/test/test_exceptions_pyc.pyc
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/6317/trunk/jython/Lib/test/pbcvm/test/__init__.py
+END
+test_types_pyc.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/6317/trunk/jython/Lib/test/pbcvm/test/test_types_pyc.pyc
+END
+test_builtin_pyc.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/6317/trunk/jython/Lib/test/pbcvm/test/test_builtin_pyc.pyc
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/6317/trunk/jython/Lib/test/pbcvm/test/README
+END

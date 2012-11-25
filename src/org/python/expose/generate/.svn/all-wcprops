@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/7007/trunk/jython/src/org/python/expose/generate
+END
+NewExposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6662/trunk/jython/src/org/python/expose/generate/NewExposer.java
+END
+ExposedMethodFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/generate/ExposedMethodFinder.java
+END
+ExposedFieldFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/generate/ExposedFieldFinder.java
+END
+ExposedTypeProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/generate/ExposedTypeProcessor.java
+END
+InstanceMethodExposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jython/!svn/ver/6829/trunk/jython/src/org/python/expose/generate/InstanceMethodExposer.java
+END
+ClassMethodExposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6829/trunk/jython/src/org/python/expose/generate/ClassMethodExposer.java
+END
+PyTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6829/trunk/jython/src/org/python/expose/generate/PyTypes.java
+END
+RestrictiveAnnotationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jython/!svn/ver/5858/trunk/jython/src/org/python/expose/generate/RestrictiveAnnotationVisitor.java
+END
+OverridableNewExposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jython/!svn/ver/5858/trunk/jython/src/org/python/expose/generate/OverridableNewExposer.java
+END
+InvalidExposingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/3925/trunk/jython/src/org/python/expose/generate/InvalidExposingException.java
+END
+DescriptorExposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jython/!svn/ver/7007/trunk/jython/src/org/python/expose/generate/DescriptorExposer.java
+END
+Exposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/5858/trunk/jython/src/org/python/expose/generate/Exposer.java
+END
+MethodExposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/6829/trunk/jython/src/org/python/expose/generate/MethodExposer.java
+END
+ExposeTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6713/trunk/jython/src/org/python/expose/generate/ExposeTask.java
+END
+TypeExposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/generate/TypeExposer.java
+END
+ExposedTypeVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/generate/ExposedTypeVisitor.java
+END
+DescriptorVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/generate/DescriptorVisitor.java
+END

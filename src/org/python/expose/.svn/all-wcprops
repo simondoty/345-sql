@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/7007/trunk/jython/src/org/python/expose
+END
+ExposedNew.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/6662/trunk/jython/src/org/python/expose/ExposedNew.java
+END
+MethodType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/3925/trunk/jython/src/org/python/expose/MethodType.java
+END
+BaseTypeBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/BaseTypeBuilder.java
+END
+ExposedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/3902/trunk/jython/src/org/python/expose/ExposedSet.java
+END
+ExposedGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/ExposedGet.java
+END
+ExposedMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/5504/trunk/jython/src/org/python/expose/ExposedMethod.java
+END
+TypeBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/TypeBuilder.java
+END
+ExposedType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/6855/trunk/jython/src/org/python/expose/ExposedType.java
+END
+ExposedDelete.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/3902/trunk/jython/src/org/python/expose/ExposedDelete.java
+END
+ExposeAsSuperclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/3925/trunk/jython/src/org/python/expose/ExposeAsSuperclass.java
+END
+ExposedClassMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6857/trunk/jython/src/org/python/expose/ExposedClassMethod.java
+END

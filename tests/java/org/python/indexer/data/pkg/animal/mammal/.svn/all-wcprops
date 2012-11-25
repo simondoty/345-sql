@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/animal/mammal
+END
+dog.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/animal/mammal/dog.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/animal/mammal/__init__.py
+END
+ape.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/animal/mammal/ape.py
+END
+cat.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/animal/mammal/cat.py
+END

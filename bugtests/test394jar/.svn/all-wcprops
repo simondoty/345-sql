@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/5893/trunk/jython/bugtests/test394jar
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5893/trunk/jython/bugtests/test394jar/MANIFEST.MF
+END
+Runner.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/3043/trunk/jython/bugtests/test394jar/Runner.java
+END
+test394called.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/3043/trunk/jython/bugtests/test394jar/test394called.py
+END

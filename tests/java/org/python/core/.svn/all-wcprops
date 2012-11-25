@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/7278/trunk/jython/tests/java/org/python/core
+END
+StringFormatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/7257/trunk/jython/tests/java/org/python/core/StringFormatTest.java
+END
+WrappedIntegerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/core/WrappedIntegerTest.java
+END
+PyTupleTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6779/trunk/jython/tests/java/org/python/core/PyTupleTest.java
+END
+WrappedBooleanTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/core/WrappedBooleanTest.java
+END
+WrappedLongTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/core/WrappedLongTest.java
+END
+PyListTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6779/trunk/jython/tests/java/org/python/core/PyListTest.java
+END
+PySystemState_registry_Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jython/!svn/ver/6299/trunk/jython/tests/java/org/python/core/PySystemState_registry_Test.java
+END
+WrappedFloatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/core/WrappedFloatTest.java
+END
+PyFloatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/7278/trunk/jython/tests/java/org/python/core/PyFloatTest.java
+END
+PySystemStateTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/7141/trunk/jython/tests/java/org/python/core/PySystemStateTest.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/6904/trunk/jython/src/org/python/modules/_csv
+END
+PyDialectDerived.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/6904/trunk/jython/src/org/python/modules/_csv/PyDialectDerived.java
+END
+PyWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6032/trunk/jython/src/org/python/modules/_csv/PyWriter.java
+END
+_csv.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/org/python/modules/_csv/_csv.java
+END
+PyReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6311/trunk/jython/src/org/python/modules/_csv/PyReader.java
+END
+PyDialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/org/python/modules/_csv/PyDialect.java
+END
+QuoteStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/org/python/modules/_csv/QuoteStyle.java
+END

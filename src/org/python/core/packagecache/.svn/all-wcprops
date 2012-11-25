@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/7182/trunk/jython/src/org/python/core/packagecache
+END
+PathPackageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jython/!svn/ver/7182/trunk/jython/src/org/python/core/packagecache/PathPackageManager.java
+END
+SysPackageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/3405/trunk/jython/src/org/python/core/packagecache/SysPackageManager.java
+END
+PackageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/6244/trunk/jython/src/org/python/core/packagecache/PackageManager.java
+END
+CachedJarsPackageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/jython/!svn/ver/7063/trunk/jython/src/org/python/core/packagecache/CachedJarsPackageManager.java
+END

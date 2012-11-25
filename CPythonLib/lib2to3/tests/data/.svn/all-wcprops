@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/78013/python/branches/release26-maint/Lib/lib2to3/tests/data
+END
+different_encoding.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/projects/!svn/ver/78013/python/branches/release26-maint/Lib/lib2to3/tests/data/different_encoding.py
+END
+bom.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/78013/python/branches/release26-maint/Lib/lib2to3/tests/data/bom.py
+END
+infinite_recursion.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/projects/!svn/ver/78013/python/branches/release26-maint/Lib/lib2to3/tests/data/infinite_recursion.py
+END
+py2_test_grammar.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/projects/!svn/ver/78013/python/branches/release26-maint/Lib/lib2to3/tests/data/py2_test_grammar.py
+END
+py3_test_grammar.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/projects/!svn/ver/78013/python/branches/release26-maint/Lib/lib2to3/tests/data/py3_test_grammar.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/78013/python/branches/release26-maint/Lib/lib2to3/tests/data/README
+END
+crlf.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/projects/!svn/ver/78013/python/branches/release26-maint/Lib/lib2to3/tests/data/crlf.py
+END

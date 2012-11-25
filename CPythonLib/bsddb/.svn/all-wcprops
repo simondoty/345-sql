@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/bsddb
+END
+dbshelve.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/bsddb/dbshelve.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/bsddb/__init__.py
+END
+dbobj.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/bsddb/dbobj.py
+END
+dbtables.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/bsddb/dbtables.py
+END
+db.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/bsddb/db.py
+END
+dbutils.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/bsddb/dbutils.py
+END
+dbrecio.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/bsddb/dbrecio.py
+END

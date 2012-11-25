@@ -1,0 +1,359 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/jython/!svn/ver/7292/trunk/jython/Lib
+END
+grp.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/jython/!svn/ver/6940/trunk/jython/Lib/grp.py
+END
+warnings.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/7247/trunk/jython/Lib/warnings.py
+END
+new.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/jython/!svn/ver/6162/trunk/jython/Lib/new.py
+END
+dbexts.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/7292/trunk/jython/Lib/dbexts.py
+END
+pyexpat.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/5889/trunk/jython/Lib/pyexpat.py
+END
+mailbox.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/6427/trunk/jython/Lib/mailbox.py
+END
+ntpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/6882/trunk/jython/Lib/ntpath.py
+END
+javapath.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/7259/trunk/jython/Lib/javapath.py
+END
+_weakrefset.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jython/!svn/ver/7224/trunk/jython/Lib/_weakrefset.py
+END
+fileinput.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jython/!svn/ver/6636/trunk/jython/Lib/fileinput.py
+END
+zlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/jython/!svn/ver/6772/trunk/jython/Lib/zlib.py
+END
+robotparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jython/!svn/ver/7213/trunk/jython/Lib/robotparser.py
+END
+zipfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/5630/trunk/jython/Lib/zipfile.py
+END
+site.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/jython/!svn/ver/6881/trunk/jython/Lib/site.py
+END
+doctest.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/doctest.py
+END
+javashell.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jython/!svn/ver/6636/trunk/jython/Lib/javashell.py
+END
+gzip.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/gzip.py
+END
+codeop.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/6636/trunk/jython/Lib/codeop.py
+END
+netrc.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/jython/!svn/ver/6411/trunk/jython/Lib/netrc.py
+END
+_rawffi.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/6636/trunk/jython/Lib/_rawffi.py
+END
+pydoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/jython/!svn/ver/7134/trunk/jython/Lib/pydoc.py
+END
+select.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/7202/trunk/jython/Lib/select.py
+END
+filecmp.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/5266/trunk/jython/Lib/filecmp.py
+END
+SocketServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/7131/trunk/jython/Lib/SocketServer.py
+END
+SimpleHTTPServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/6446/trunk/jython/Lib/SimpleHTTPServer.py
+END
+unicodedata.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jython/!svn/ver/6636/trunk/jython/Lib/unicodedata.py
+END
+os.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/jython/!svn/ver/6999/trunk/jython/Lib/os.py
+END
+asyncore.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/6013/trunk/jython/Lib/asyncore.py
+END
+gettext.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/6408/trunk/jython/Lib/gettext.py
+END
+pycimport.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jython/!svn/ver/6822/trunk/jython/Lib/pycimport.py
+END
+marshal.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/6046/trunk/jython/Lib/marshal.py
+END
+socket.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/7221/trunk/jython/Lib/socket.py
+END
+subprocess.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jython/!svn/ver/6874/trunk/jython/Lib/subprocess.py
+END
+urllib.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/6420/trunk/jython/Lib/urllib.py
+END
+uu.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/uu.py
+END
+pwd.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/jython/!svn/ver/6940/trunk/jython/Lib/pwd.py
+END
+_abcoll.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/7225/trunk/jython/Lib/_abcoll.py
+END
+timeit.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/5803/trunk/jython/Lib/timeit.py
+END
+datetime.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/6636/trunk/jython/Lib/datetime.py
+END
+decimal.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/5757/trunk/jython/Lib/decimal.py
+END
+EastAsianWidth.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/5274/trunk/jython/Lib/EastAsianWidth.txt
+END
+py_compile.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jython/!svn/ver/4342/trunk/jython/Lib/py_compile.py
+END
+sre_compile.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/sre_compile.py
+END
+popen2.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/6767/trunk/jython/Lib/popen2.py
+END
+types.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/jython/!svn/ver/4275/trunk/jython/Lib/types.py
+END
+threading.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jython/!svn/ver/7078/trunk/jython/Lib/threading.py
+END
+inspect.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/7242/trunk/jython/Lib/inspect.py
+END
+getpass.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/7162/trunk/jython/Lib/getpass.py
+END
+UnicodeData.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/5274/trunk/jython/Lib/UnicodeData.txt
+END
+isql.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/jython/!svn/ver/7292/trunk/jython/Lib/isql.py
+END
+signal.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/6636/trunk/jython/Lib/signal.py
+END
+posixpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jython/!svn/ver/6882/trunk/jython/Lib/posixpath.py
+END
+pkgutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/7255/trunk/jython/Lib/pkgutil.py
+END
+telnetlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jython/!svn/ver/6636/trunk/jython/Lib/telnetlib.py
+END
+readline.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/7179/trunk/jython/Lib/readline.py
+END
+platform.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/7262/trunk/jython/Lib/platform.py
+END
+weakref.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/6585/trunk/jython/Lib/weakref.py
+END
+abc.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/jython/!svn/ver/7224/trunk/jython/Lib/abc.py
+END
+tarfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/6446/trunk/jython/Lib/tarfile.py
+END

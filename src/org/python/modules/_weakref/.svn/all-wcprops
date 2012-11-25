@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/7251/trunk/jython/src/org/python/modules/_weakref
+END
+ReferenceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/6198/trunk/jython/src/org/python/modules/_weakref/ReferenceType.java
+END
+AbstractReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/7251/trunk/jython/src/org/python/modules/_weakref/AbstractReference.java
+END
+CallableProxyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/5627/trunk/jython/src/org/python/modules/_weakref/CallableProxyType.java
+END
+ProxyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/5627/trunk/jython/src/org/python/modules/_weakref/ProxyType.java
+END
+ReferenceTypeDerived.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jython/!svn/ver/6904/trunk/jython/src/org/python/modules/_weakref/ReferenceTypeDerived.java
+END
+WeakrefModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/6204/trunk/jython/src/org/python/modules/_weakref/WeakrefModule.java
+END
+GlobalRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6204/trunk/jython/src/org/python/modules/_weakref/GlobalRef.java
+END

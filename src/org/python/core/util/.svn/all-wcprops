@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/jython/!svn/ver/7022/trunk/jython/src/org/python/core/util
+END
+importer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/6458/trunk/jython/src/org/python/core/util/importer.java
+END
+PlatformUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6896/trunk/jython/src/org/python/core/util/PlatformUtil.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/6713/trunk/jython/src/org/python/core/util/StringUtil.java
+END
+ByteSwapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6687/trunk/jython/src/org/python/core/util/ByteSwapper.java
+END
+RelativeFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/3844/trunk/jython/src/org/python/core/util/RelativeFile.java
+END
+ExtraMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/4362/trunk/jython/src/org/python/core/util/ExtraMath.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/7022/trunk/jython/src/org/python/core/util/FileUtil.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/6818/trunk/jython/Lib/test/test_metaclass_support
+END
+metaclass.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/3572/trunk/jython/Lib/test/test_metaclass_support/metaclass.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/3572/trunk/jython/Lib/test/test_metaclass_support/__init__.py
+END
+simpleclass.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6648/trunk/jython/Lib/test/test_metaclass_support/simpleclass.py
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/83588/python/branches/release26-maint/Lib/ctypes
+END
+_endian.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/ctypes/_endian.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/79129/python/branches/release26-maint/Lib/ctypes/util.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/ctypes/__init__.py
+END
+wintypes.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/75794/python/branches/release26-maint/Lib/ctypes/wintypes.py
+END

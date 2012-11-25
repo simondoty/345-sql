@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jython/!svn/ver/3082/trunk/jython/bugtests/test244p
+END
+A.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/jython/!svn/ver/3043/trunk/jython/bugtests/test244p/A.java
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/3043/trunk/jython/bugtests/test244p/__init__.py
+END

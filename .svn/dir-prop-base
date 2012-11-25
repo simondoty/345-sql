@@ -1,0 +1,32 @@
+K 13
+svn:externals
+V 88
+CPythonLib -r88766 https://svn.python.org/projects/python/branches/release26-maint/Lib/
+
+K 10
+svn:ignore
+V 121
+.externalToolBuilders
+.classpath
+.project
+*.ipr
+*.iws
+*.iml
+build
+dist
+ant.properties
+bin
+cachedir
+.settings
+profile.txt
+
+K 13
+svn:mergeinfo
+V 76
+/branches/jsr223:6285-6565
+/branches/newstyle-java-types:5564-5663,5666-5729
+K 19
+svnmerge-integrated
+V 22
+/branches/pbcvm:1-6045
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/7063/trunk/jython/tests/java/org/python/core/packagecache
+END
+vim25-small.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/7063/trunk/jython/tests/java/org/python/core/packagecache/vim25-small.jar
+END
+CachedJarsOver64kTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/jython/!svn/ver/7063/trunk/jython/tests/java/org/python/core/packagecache/CachedJarsOver64kTest.java
+END

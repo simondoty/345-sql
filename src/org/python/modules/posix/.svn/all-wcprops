@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/7287/trunk/jython/src/org/python/modules/posix
+END
+OS.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/6876/trunk/jython/src/org/python/modules/posix/OS.java
+END
+PythonPOSIXHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/7034/trunk/jython/src/org/python/modules/posix/PythonPOSIXHandler.java
+END
+PyStatResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6949/trunk/jython/src/org/python/modules/posix/PyStatResult.java
+END
+PosixModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/7287/trunk/jython/src/org/python/modules/posix/PosixModule.java
+END
+Hider.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/7025/trunk/jython/src/org/python/modules/posix/Hider.java
+END

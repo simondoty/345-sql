@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/7044/trunk/jython/src/org/python/core/io
+END
+FileDescriptors.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6899/trunk/jython/src/org/python/core/io/FileDescriptors.java
+END
+UniversalIOWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/UniversalIOWrapper.java
+END
+IOBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/6304/trunk/jython/src/org/python/core/io/IOBase.java
+END
+BufferedReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/BufferedReader.java
+END
+BufferedIOBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/3682/trunk/jython/src/org/python/core/io/BufferedIOBase.java
+END
+ServerSocketIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/7043/trunk/jython/src/org/python/core/io/ServerSocketIO.java
+END
+FileIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/7043/trunk/jython/src/org/python/core/io/FileIO.java
+END
+TextIOBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/TextIOBase.java
+END
+TextIOInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/org/python/core/io/TextIOInputStream.java
+END
+SocketIOBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/7043/trunk/jython/src/org/python/core/io/SocketIOBase.java
+END
+RawIOBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/7044/trunk/jython/src/org/python/core/io/RawIOBase.java
+END
+BinaryIOWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/BinaryIOWrapper.java
+END
+TextIOWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/TextIOWrapper.java
+END
+BufferedWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/BufferedWriter.java
+END
+BufferedIOMixin.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/BufferedIOMixin.java
+END
+SocketIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/7043/trunk/jython/src/org/python/core/io/SocketIO.java
+END
+DatagramSocketIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/7043/trunk/jython/src/org/python/core/io/DatagramSocketIO.java
+END
+BufferedRandom.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/BufferedRandom.java
+END
+StreamIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/6874/trunk/jython/src/org/python/core/io/StreamIO.java
+END
+LineBufferedWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/LineBufferedWriter.java
+END
+LineBufferedRandom.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6724/trunk/jython/src/org/python/core/io/LineBufferedRandom.java
+END

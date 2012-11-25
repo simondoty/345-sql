@@ -1,0 +1,1223 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/87664/python/branches/release26-maint/Lib
+END
+fractions.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/76457/python/branches/release26-maint/Lib/fractions.py
+END
+rlcompleter.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/rlcompleter.py
+END
+genericpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/genericpath.py
+END
+CGIHTTPServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/76213/python/branches/release26-maint/Lib/CGIHTTPServer.py
+END
+sgmllib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/71145/python/branches/release26-maint/Lib/sgmllib.py
+END
+markupbase.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/markupbase.py
+END
+os2emxpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/78248/python/branches/release26-maint/Lib/os2emxpath.py
+END
+dircache.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/dircache.py
+END
+wave.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/wave.py
+END
+nturl2path.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/75253/python/branches/release26-maint/Lib/nturl2path.py
+END
+site.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/79204/python/branches/release26-maint/Lib/site.py
+END
+UserString.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/UserString.py
+END
+symbol.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/symbol.py
+END
+__future__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/__future__.py
+END
+copy_reg.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/copy_reg.py
+END
+asynchat.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/asynchat.py
+END
+sha.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sha.py
+END
+stat.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/stat.py
+END
+mimetypes.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/72048/python/branches/release26-maint/Lib/mimetypes.py
+END
+SimpleHTTPServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/SimpleHTTPServer.py
+END
+pipes.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/81303/python/branches/release26-maint/Lib/pipes.py
+END
+token.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/token.py
+END
+os.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/77880/python/branches/release26-maint/Lib/os.py
+END
+sndhdr.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/sndhdr.py
+END
+smtpd.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/87123/python/branches/release26-maint/Lib/smtpd.py
+END
+_abcoll.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/81425/python/branches/release26-maint/Lib/_abcoll.py
+END
+xmlrpclib.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/xmlrpclib.py
+END
+optparse.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/73770/python/branches/release26-maint/Lib/optparse.py
+END
+py_compile.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/py_compile.py
+END
+audiodev.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/audiodev.py
+END
+threading.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/78518/python/branches/release26-maint/Lib/threading.py
+END
+stringold.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/stringold.py
+END
+getpass.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/76015/python/branches/release26-maint/Lib/getpass.py
+END
+uuid.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/uuid.py
+END
+whichdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/whichdb.py
+END
+dumbdbm.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/dumbdbm.py
+END
+smtplib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/72837/python/branches/release26-maint/Lib/smtplib.py
+END
+tabnanny.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/tabnanny.py
+END
+imaplib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/83492/python/branches/release26-maint/Lib/imaplib.py
+END
+fpformat.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/fpformat.py
+END
+textwrap.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/68135/python/branches/release26-maint/Lib/textwrap.py
+END
+user.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/user.py
+END
+posixpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/83495/python/branches/release26-maint/Lib/posixpath.py
+END
+quopri.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/quopri.py
+END
+symtable.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/70813/python/branches/release26-maint/Lib/symtable.py
+END
+DocXMLRPCServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/DocXMLRPCServer.py
+END
+pdb.doc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/pdb.doc
+END
+glob.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/71272/python/branches/release26-maint/Lib/glob.py
+END
+shelve.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/78143/python/branches/release26-maint/Lib/shelve.py
+END
+xmllib.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/72460/python/branches/release26-maint/Lib/xmllib.py
+END
+tokenize.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/tokenize.py
+END
+warnings.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/83588/python/branches/release26-maint/Lib/warnings.py
+END
+sunau.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/sunau.py
+END
+ntpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83493/python/branches/release26-maint/Lib/ntpath.py
+END
+formatter.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/formatter.py
+END
+htmlentitydefs.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/htmlentitydefs.py
+END
+re.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/68135/python/branches/release26-maint/Lib/re.py
+END
+_strptime.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/_strptime.py
+END
+mailcap.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/mailcap.py
+END
+wsgiref.egg-info
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/wsgiref.egg-info
+END
+calendar.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/83588/python/branches/release26-maint/Lib/calendar.py
+END
+bisect.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/bisect.py
+END
+gzip.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/80763/python/branches/release26-maint/Lib/gzip.py
+END
+copy.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/copy.py
+END
+netrc.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/netrc.py
+END
+pty.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/pty.py
+END
+modulefinder.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/67047/python/branches/release26-maint/Lib/modulefinder.py
+END
+macpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/79476/python/branches/release26-maint/Lib/macpath.py
+END
+SocketServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/80486/python/branches/release26-maint/Lib/SocketServer.py
+END
+ftplib.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/80227/python/branches/release26-maint/Lib/ftplib.py
+END
+fnmatch.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/82770/python/branches/release26-maint/Lib/fnmatch.py
+END
+random.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/73383/python/branches/release26-maint/Lib/random.py
+END
+asyncore.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/83969/python/branches/release26-maint/Lib/asyncore.py
+END
+shlex.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/shlex.py
+END
+base64.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/base64.py
+END
+struct.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/75805/python/branches/release26-maint/Lib/struct.py
+END
+pickletools.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/72808/python/branches/release26-maint/Lib/pickletools.py
+END
+socket.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83964/python/branches/release26-maint/Lib/socket.py
+END
+ihooks.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/ihooks.py
+END
+stringprep.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/stringprep.py
+END
+heapq.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/81308/python/branches/release26-maint/Lib/heapq.py
+END
+atexit.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/atexit.py
+END
+decimal.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/82657/python/branches/release26-maint/Lib/decimal.py
+END
+difflib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/76468/python/branches/release26-maint/Lib/difflib.py
+END
+cookielib.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/83147/python/branches/release26-maint/Lib/cookielib.py
+END
+BaseHTTPServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/78300/python/branches/release26-maint/Lib/BaseHTTPServer.py
+END
+getopt.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83119/python/branches/release26-maint/Lib/getopt.py
+END
+inspect.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/74286/python/branches/release26-maint/Lib/inspect.py
+END
+string.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/75071/python/branches/release26-maint/Lib/string.py
+END
+mimetools.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/mimetools.py
+END
+shutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/80831/python/branches/release26-maint/Lib/shutil.py
+END
+imghdr.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/imghdr.py
+END
+anydbm.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/anydbm.py
+END
+numbers.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/69549/python/branches/release26-maint/Lib/numbers.py
+END
+runpy.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/67752/python/branches/release26-maint/Lib/runpy.py
+END
+collections.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/72955/python/branches/release26-maint/Lib/collections.py
+END
+traceback.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/80779/python/branches/release26-maint/Lib/traceback.py
+END
+dummy_threading.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/dummy_threading.py
+END
+compileall.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/compileall.py
+END
+webbrowser.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/webbrowser.py
+END
+weakref.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/weakref.py
+END
+abc.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/79337/python/branches/release26-maint/Lib/abc.py
+END
+sched.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/72933/python/branches/release26-maint/Lib/sched.py
+END
+ast.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66986/python/branches/release26-maint/Lib/ast.py
+END
+csv.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/csv.py
+END
+pyclbr.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/pyclbr.py
+END
+commands.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/72460/python/branches/release26-maint/Lib/commands.py
+END
+__phello__.foo.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/__phello__.foo.py
+END
+robotparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/83490/python/branches/release26-maint/Lib/robotparser.py
+END
+posixfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/posixfile.py
+END
+cgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/83518/python/branches/release26-maint/Lib/cgi.py
+END
+tempfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/tempfile.py
+END
+pdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/83493/python/branches/release26-maint/Lib/pdb.py
+END
+nntplib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/72641/python/branches/release26-maint/Lib/nntplib.py
+END
+io.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/83588/python/branches/release26-maint/Lib/io.py
+END
+chunk.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/chunk.py
+END
+Cookie.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83495/python/branches/release26-maint/Lib/Cookie.py
+END
+opcode.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/opcode.py
+END
+pydoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/83492/python/branches/release26-maint/Lib/pydoc.py
+END
+pstats.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83535/python/branches/release26-maint/Lib/pstats.py
+END
+macurl2path.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/macurl2path.py
+END
+MimeWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/MimeWriter.py
+END
+gettext.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/gettext.py
+END
+sre_constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sre_constants.py
+END
+md5.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/md5.py
+END
+sunaudio.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sunaudio.py
+END
+urllib.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83967/python/branches/release26-maint/Lib/urllib.py
+END
+sre.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sre.py
+END
+htmllib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/htmllib.py
+END
+trace.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/83495/python/branches/release26-maint/Lib/trace.py
+END
+Bastion.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/Bastion.py
+END
+profile.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/74774/python/branches/release26-maint/Lib/profile.py
+END
+aifc.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/aifc.py
+END
+cProfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/cProfile.py
+END
+cmd.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/83382/python/branches/release26-maint/Lib/cmd.py
+END
+types.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/types.py
+END
+rfc822.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/rfc822.py
+END
+repr.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/repr.py
+END
+code.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/code.py
+END
+contextlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/contextlib.py
+END
+unittest.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/73997/python/branches/release26-maint/Lib/unittest.py
+END
+UserDict.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/77807/python/branches/release26-maint/Lib/UserDict.py
+END
+telnetlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/telnetlib.py
+END
+Queue.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/Queue.py
+END
+platform.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/83651/python/branches/release26-maint/Lib/platform.py
+END
+tarfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/81664/python/branches/release26-maint/Lib/tarfile.py
+END
+bdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/83493/python/branches/release26-maint/Lib/bdb.py
+END
+_LWPCookieJar.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/_LWPCookieJar.py
+END
+new.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/new.py
+END
+mimify.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/mimify.py
+END
+statvfs.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/statvfs.py
+END
+mhlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/mhlib.py
+END
+mailbox.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/mailbox.py
+END
+_MozillaCookieJar.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/!svn/ver/83492/python/branches/release26-maint/Lib/_MozillaCookieJar.py
+END
+StringIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/StringIO.py
+END
+fileinput.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/fileinput.py
+END
+ssl.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/80558/python/branches/release26-maint/Lib/ssl.py
+END
+zipfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/77334/python/branches/release26-maint/Lib/zipfile.py
+END
+doctest.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/83493/python/branches/release26-maint/Lib/doctest.py
+END
+httplib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/83624/python/branches/release26-maint/Lib/httplib.py
+END
+rexec.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/rexec.py
+END
+toaiff.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/toaiff.py
+END
+codeop.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/codeop.py
+END
+hashlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/hashlib.py
+END
+UserList.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/UserList.py
+END
+linecache.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/81439/python/branches/release26-maint/Lib/linecache.py
+END
+urllib2.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/82783/python/branches/release26-maint/Lib/urllib2.py
+END
+pprint.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/pprint.py
+END
+colorsys.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/colorsys.py
+END
+_threading_local.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/!svn/ver/76118/python/branches/release26-maint/Lib/_threading_local.py
+END
+sets.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/sets.py
+END
+filecmp.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/filecmp.py
+END
+tty.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/tty.py
+END
+dummy_thread.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/dummy_thread.py
+END
+ConfigParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/83487/python/branches/release26-maint/Lib/ConfigParser.py
+END
+plistlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/72460/python/branches/release26-maint/Lib/plistlib.py
+END
+xdrlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/xdrlib.py
+END
+cgitb.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/83564/python/branches/release26-maint/Lib/cgitb.py
+END
+subprocess.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/82974/python/branches/release26-maint/Lib/subprocess.py
+END
+dbhash.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/dbhash.py
+END
+uu.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/uu.py
+END
+multifile.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/multifile.py
+END
+timeit.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83495/python/branches/release26-maint/Lib/timeit.py
+END
+urlparse.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/82884/python/branches/release26-maint/Lib/urlparse.py
+END
+locale.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/72401/python/branches/release26-maint/Lib/locale.py
+END
+pydoc_topics.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/!svn/ver/84292/python/branches/release26-maint/Lib/pydoc_topics.py
+END
+codecs.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/81473/python/branches/release26-maint/Lib/codecs.py
+END
+sre_compile.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sre_compile.py
+END
+mutex.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/mutex.py
+END
+popen2.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/popen2.py
+END
+SimpleXMLRPCServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/71278/python/branches/release26-maint/Lib/SimpleXMLRPCServer.py
+END
+pickle.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/pickle.py
+END
+this.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/this.py
+END
+hmac.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/hmac.py
+END
+functools.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/functools.py
+END
+binhex.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/binhex.py
+END
+dis.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/79772/python/branches/release26-maint/Lib/dis.py
+END
+pkgutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/pkgutil.py
+END
+HTMLParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/81503/python/branches/release26-maint/Lib/HTMLParser.py
+END
+imputil.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/83512/python/branches/release26-maint/Lib/imputil.py
+END
+sre_parse.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/sre_parse.py
+END
+keyword.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/keyword.py
+END
+poplib.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/poplib.py
+END

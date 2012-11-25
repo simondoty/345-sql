@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/7037/trunk/jython/src/org/python/modules/jffi
+END
+Structure.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/Structure.java
+END
+ScalarCData.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/ScalarCData.java
+END
+DirectMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/DirectMemory.java
+END
+NullMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/NullMemory.java
+END
+StringCData.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/StringCData.java
+END
+HeapMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/HeapMemory.java
+END
+MemoryOp.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/MemoryOp.java
+END
+Memory.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/7037/trunk/jython/src/org/python/modules/jffi/Memory.java
+END
+DynamicLibrary.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/DynamicLibrary.java
+END
+DefaultInvokerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/DefaultInvokerFactory.java
+END
+BasePointer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/BasePointer.java
+END
+ArrayCData.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/ArrayCData.java
+END
+CData.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/CData.java
+END
+AllocatedDirectMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/AllocatedDirectMemory.java
+END
+Invoker.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/Invoker.java
+END
+PointerCData.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/PointerCData.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/7009/trunk/jython/src/org/python/modules/jffi/Util.java
+END
+jffi.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/jffi.java
+END
+InvalidMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/InvalidMemory.java
+END
+NativeMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/NativeMemory.java
+END
+BoundedNativeMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/BoundedNativeMemory.java
+END
+Pointer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/Pointer.java
+END
+StructLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/StructLayout.java
+END
+CType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/CType.java
+END
+Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/Function.java
+END
+AllocatedNativeMemory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/AllocatedNativeMemory.java
+END
+NativeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/NativeType.java
+END
+ByReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/ByReference.java
+END
+AbstractMemoryCData.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/AbstractMemoryCData.java
+END
+FastIntInvokerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/jffi/FastIntInvokerFactory.java
+END

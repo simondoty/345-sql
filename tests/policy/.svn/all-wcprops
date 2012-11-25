@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/jython/!svn/ver/6251/trunk/jython/tests/policy
+END
+nowrite.policy
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/6236/trunk/jython/tests/policy/nowrite.policy
+END
+run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/6251/trunk/jython/tests/policy/run.sh
+END

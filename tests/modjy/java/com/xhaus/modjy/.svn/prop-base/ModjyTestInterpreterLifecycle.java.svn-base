@@ -1,0 +1,6 @@
+K 13
+svn:mergeinfo
+V 204
+/branches/jsr223/tests/modjy/java/com/xhaus/modjy/ModjyTestServletLifecycle.java:6285-6565
+/branches/newstyle-java-types/tests/modjy/java/com/xhaus/modjy/ModjyTestServletLifecycle.java:5564-5663,5666-5729
+END

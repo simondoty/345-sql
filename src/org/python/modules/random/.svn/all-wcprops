@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/6947/trunk/jython/src/org/python/modules/random
+END
+RandomModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/5779/trunk/jython/src/org/python/modules/random/RandomModule.java
+END
+PyRandom.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6947/trunk/jython/src/org/python/modules/random/PyRandom.java
+END
+PyRandomDerived.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/6904/trunk/jython/src/org/python/modules/random/PyRandomDerived.java
+END

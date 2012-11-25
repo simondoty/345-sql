@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/6818/trunk/jython/Lib/test/bugs/pr133
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/722/trunk/jython/Lib/test/bugs/pr133/__init__.py
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/722/trunk/jython/Lib/test/bugs/pr133/test.py
+END

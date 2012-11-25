@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/jython/!svn/ver/7119/trunk/jython/tests/python
+END
+identity_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/6165/trunk/jython/tests/python/identity_test.py
+END
+prop_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/6224/trunk/jython/tests/python/prop_test.py
+END
+constructorkwargs_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/7119/trunk/jython/tests/python/constructorkwargs_test.py
+END

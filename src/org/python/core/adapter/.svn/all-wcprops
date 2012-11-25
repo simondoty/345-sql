@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/7072/trunk/jython/src/org/python/core/adapter
+END
+PyObjectAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/5739/trunk/jython/src/org/python/core/adapter/PyObjectAdapter.java
+END
+ClassicPyObjectAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/7072/trunk/jython/src/org/python/core/adapter/ClassicPyObjectAdapter.java
+END
+ExtensiblePyObjectAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jython/!svn/ver/3209/trunk/jython/src/org/python/core/adapter/ExtensiblePyObjectAdapter.java
+END
+ClassAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/3209/trunk/jython/src/org/python/core/adapter/ClassAdapter.java
+END

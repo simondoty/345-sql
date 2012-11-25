@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/6818/trunk/jython/Lib/distutils/command
+END
+bdist_dumb.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/distutils/command/bdist_dumb.py
+END
+install_scripts.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/6114/trunk/jython/Lib/distutils/command/install_scripts.py
+END
+bdist.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/distutils/command/bdist.py
+END
+build_scripts.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/6114/trunk/jython/Lib/distutils/command/build_scripts.py
+END
+install.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/distutils/command/install.py
+END
+sdist.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5206/trunk/jython/Lib/distutils/command/sdist.py
+END

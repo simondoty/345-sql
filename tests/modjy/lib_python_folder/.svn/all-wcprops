@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/7038/trunk/jython/tests/modjy/lib_python_folder
+END
+script_name_path_info.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/lib_python_folder/script_name_path_info.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/lib_python_folder/__init__.py
+END
+do_import.pth
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/lib_python_folder/do_import.pth
+END
+add_zips.pth
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/lib_python_folder/add_zips.pth
+END
+test_modules.zip
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/lib_python_folder/test_modules.zip
+END

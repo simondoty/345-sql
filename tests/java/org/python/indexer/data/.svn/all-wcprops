@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data
+END
+empty_file.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/empty_file.py
+END
+attr_infer.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/attr_infer.py
+END
+refs.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/refs.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/__init__.py
+END
+mod1.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/mod1.py
+END
+mod2.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/mod2.py
+END
+mod3.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/mod3.py
+END
+hello.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/hello.py
+END
+testsrc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/testsrc.txt
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/test.py
+END
+testfileload.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/testfileload.py
+END
+testload.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/testload.py
+END
+classtype_builtins.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/classtype_builtins.py
+END
+pkgload.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkgload.py
+END
+refs2.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/refs2.py
+END
+callnewref.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/callnewref.py
+END
+foo.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/foo.py
+END
+test-load.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/test-load.txt
+END
+class1.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/class1.py
+END
+class2.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/class2.py
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/jython/!svn/ver/7070/trunk/jython/Lib/xml/dom
+END
+NodeFilter.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/dom/NodeFilter.py
+END
+minidom.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/7070/trunk/jython/Lib/xml/dom/minidom.py
+END
+pulldom.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/6642/trunk/jython/Lib/xml/dom/pulldom.py
+END
+domreg.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/dom/domreg.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/dom/__init__.py
+END
+minicompat.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/dom/minicompat.py
+END
+MessageSource.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/dom/MessageSource.py
+END
+xmlbuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/dom/xmlbuilder.py
+END

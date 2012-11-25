@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/7099/trunk/jython/src/org/python/modules/_collections
+END
+PyDequeDerived.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/6904/trunk/jython/src/org/python/modules/_collections/PyDequeDerived.java
+END
+PyDefaultDict.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/7099/trunk/jython/src/org/python/modules/_collections/PyDefaultDict.java
+END
+PyDefaultDictDerived.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/jython/!svn/ver/6904/trunk/jython/src/org/python/modules/_collections/PyDefaultDictDerived.java
+END
+PyDeque.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/6894/trunk/jython/src/org/python/modules/_collections/PyDeque.java
+END
+Collections.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/6527/trunk/jython/src/org/python/modules/_collections/Collections.java
+END

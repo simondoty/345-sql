@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/jython/!svn/ver/7292/trunk/jython
+END
+NOTICE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/jython/!svn/ver/3129/trunk/jython/NOTICE.txt
+END
+.hgignore
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/jython/!svn/ver/7282/trunk/jython/.hgignore
+END
+CPythonLib.includes
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/7238/trunk/jython/CPythonLib.includes
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/jython/!svn/ver/7140/trunk/jython/.classpath
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/jython/!svn/ver/5923/trunk/jython/LICENSE.txt
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/jython/!svn/ver/6682/trunk/jython/.project
+END
+ACKNOWLEDGMENTS
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/7258/trunk/jython/ACKNOWLEDGMENTS
+END
+CoreExposed.includes
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jython/!svn/ver/7257/trunk/jython/CoreExposed.includes
+END
+registry
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/jython/!svn/ver/6327/trunk/jython/registry
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/jython/!svn/ver/7203/trunk/jython/README.txt
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/jython/!svn/ver/7287/trunk/jython/NEWS
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/jython/!svn/ver/7280/trunk/jython/build.xml
+END

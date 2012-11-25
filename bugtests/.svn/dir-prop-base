@@ -1,0 +1,33 @@
+K 10
+svn:ignore
+V 251
+
+*.jar
+*.class
+*.out
+*.tmp
+*.ser
+*.pyc
+*.err
+jpywork
+cachedir
+support_config.py
+*.zip
+*.diff
+.classpath
+.project
+.ipr
+.iws
+.iml
+test246p
+test257s1.py
+test260s1.py
+test302s.py
+test339p
+test398cache
+test398javapackage
+test398jar
+test313.jar
+test392m.py
+
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/7012/trunk/jython/Lib/xml/etree
+END
+ElementTree.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/7012/trunk/jython/Lib/xml/etree/ElementTree.py
+END
+cElementTree.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5814/trunk/jython/Lib/xml/etree/cElementTree.py
+END

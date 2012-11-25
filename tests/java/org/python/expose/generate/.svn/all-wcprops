@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/6858/trunk/jython/tests/java/org/python/expose/generate
+END
+NewExposerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jython/!svn/ver/5858/trunk/jython/tests/java/org/python/expose/generate/NewExposerTest.java
+END
+SimpleExposed.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jython/!svn/ver/6855/trunk/jython/tests/java/org/python/expose/generate/SimpleExposed.java
+END
+DescriptorExposerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/jython/!svn/ver/5858/trunk/jython/tests/java/org/python/expose/generate/DescriptorExposerTest.java
+END
+MethodExposerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/jython/!svn/ver/6829/trunk/jython/tests/java/org/python/expose/generate/MethodExposerTest.java
+END
+TypeExposerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/jython/!svn/ver/6858/trunk/jython/tests/java/org/python/expose/generate/TypeExposerTest.java
+END
+ExposedTypeProcessorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/jython/!svn/ver/6855/trunk/jython/tests/java/org/python/expose/generate/ExposedTypeProcessorTest.java
+END
+ExposedTypeVisitorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jython/!svn/ver/6855/trunk/jython/tests/java/org/python/expose/generate/ExposedTypeVisitorTest.java
+END
+ExposeMethodFinderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/jython/!svn/ver/6855/trunk/jython/tests/java/org/python/expose/generate/ExposeMethodFinderTest.java
+END
+InterpTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/jython/!svn/ver/3902/trunk/jython/tests/java/org/python/expose/generate/InterpTestCase.java
+END
+OverridableNewExposerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/jython/!svn/ver/5858/trunk/jython/tests/java/org/python/expose/generate/OverridableNewExposerTest.java
+END

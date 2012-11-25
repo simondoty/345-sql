@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/7282/trunk/jython/src/org/python/modules/sre
+END
+ScannerObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/2906/trunk/jython/src/org/python/modules/sre/ScannerObject.java
+END
+MatchObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/org/python/modules/sre/MatchObject.java
+END
+PatternObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6334/trunk/jython/src/org/python/modules/sre/PatternObject.java
+END
+SRE_REPEAT.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/2710/trunk/jython/src/org/python/modules/sre/SRE_REPEAT.java
+END
+SRE_STATE.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6334/trunk/jython/src/org/python/modules/sre/SRE_STATE.java
+END

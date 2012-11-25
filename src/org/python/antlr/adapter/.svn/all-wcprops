@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter
+END
+CmpopAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/CmpopAdapter.java
+END
+ExprAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/ExprAdapter.java
+END
+SliceAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/SliceAdapter.java
+END
+IdentifierAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/IdentifierAdapter.java
+END
+KeywordAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/KeywordAdapter.java
+END
+ExcepthandlerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/ExcepthandlerAdapter.java
+END
+AstAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/jython/!svn/ver/5695/trunk/jython/src/org/python/antlr/adapter/AstAdapter.java
+END
+StmtAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/StmtAdapter.java
+END
+AliasAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/AliasAdapter.java
+END
+ComprehensionAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/ComprehensionAdapter.java
+END
+AstAdapters.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/6629/trunk/jython/src/org/python/antlr/adapter/AstAdapters.java
+END

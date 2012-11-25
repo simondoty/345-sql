@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/5955/trunk/jython/tests/data/initializer/META-INF/services
+END
+org.python.core.JythonInitializer
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/jython/!svn/ver/5955/trunk/jython/tests/data/initializer/META-INF/services/org.python.core.JythonInitializer
+END

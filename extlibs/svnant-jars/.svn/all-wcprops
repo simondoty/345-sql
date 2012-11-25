@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/5206/trunk/jython/extlibs/svnant-jars
+END
+svnClientAdapter.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/jython/!svn/ver/5206/trunk/jython/extlibs/svnant-jars/svnClientAdapter.jar
+END
+svnant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5206/trunk/jython/extlibs/svnant-jars/svnant.jar
+END
+svnjavahl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/5206/trunk/jython/extlibs/svnant-jars/svnjavahl.jar
+END

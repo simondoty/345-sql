@@ -1,0 +1,821 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/7282/trunk/jython/src/templates
+END
+ast_Tuple.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Tuple.derived
+END
+ast_alias.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_alias.derived
+END
+ast_BoolOp.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_BoolOp.derived
+END
+ast_ListComp.derived
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_ListComp.derived
+END
+ast_UnaryOp.derived
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_UnaryOp.derived
+END
+dialect.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/templates/dialect.derived
+END
+function.expose
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/function.expose
+END
+op_Gt.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Gt.derived
+END
+ast_Delete.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Delete.derived
+END
+op_Or.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Or.derived
+END
+ast_Import.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Import.derived
+END
+op_FloorDiv.derived
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_FloorDiv.derived
+END
+ast_Call.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Call.derived
+END
+ast_Subscript.derived
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Subscript.derived
+END
+spark.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/spark.py
+END
+op_AugStore.derived
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_AugStore.derived
+END
+gderived-defs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/5830/trunk/jython/src/templates/gderived-defs
+END
+super.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/super.derived
+END
+object.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/6903/trunk/jython/src/templates/object.derived
+END
+ast_Expression.derived
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Expression.derived
+END
+ast_Num.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Num.derived
+END
+ast_Slice.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Slice.derived
+END
+gexpose-defs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/3121/trunk/jython/src/templates/gexpose-defs
+END
+ast_Yield.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Yield.derived
+END
+ast_BinOp.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_BinOp.derived
+END
+op_Mult.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Mult.derived
+END
+frozenset.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5506/trunk/jython/src/templates/frozenset.derived
+END
+gexpose.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/jython/!svn/ver/3405/trunk/jython/src/templates/gexpose.py
+END
+ast_comprehension.derived
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_comprehension.derived
+END
+property.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/property.derived
+END
+ast_Expr.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Expr.derived
+END
+java_lexer.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/java_lexer.py
+END
+unicode.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/4345/trunk/jython/src/templates/unicode.derived
+END
+int.derived
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/int.derived
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/jython/!svn/ver/6244/trunk/jython/src/templates/README.txt
+END
+ast_Assign.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Assign.derived
+END
+mappings
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/6908/trunk/jython/src/templates/mappings
+END
+op_And.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_And.derived
+END
+op_Pow.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Pow.derived
+END
+op_In.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_In.derived
+END
+op_Invert.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Invert.derived
+END
+ast_ImportFrom.derived
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_ImportFrom.derived
+END
+op_Is.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Is.derived
+END
+ClasspathPyImporter.derived
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/5818/trunk/jython/src/templates/ClasspathPyImporter.derived
+END
+ast_Repr.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Repr.derived
+END
+ast_Str.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Str.derived
+END
+random.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/3405/trunk/jython/src/templates/random.derived
+END
+op_NotIn.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_NotIn.derived
+END
+module.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/3414/trunk/jython/src/templates/module.derived
+END
+ast_Name.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Name.derived
+END
+defaultdict.derived
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/3916/trunk/jython/src/templates/defaultdict.derived
+END
+ast_Dict.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Dict.derived
+END
+partial.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/templates/partial.derived
+END
+ast_For.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_For.derived
+END
+gderived.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/5830/trunk/jython/src/templates/gderived.py
+END
+ast_Print.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Print.derived
+END
+ast_TryFinally.derived
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_TryFinally.derived
+END
+float.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/float.derived
+END
+ast_Global.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Global.derived
+END
+ast_arguments.derived
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_arguments.derived
+END
+op_Mod.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Mod.derived
+END
+op_GtE.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_GtE.derived
+END
+op_Div.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Div.derived
+END
+type.derived
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/3040/trunk/jython/src/templates/type.derived
+END
+ast_IfExp.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_IfExp.derived
+END
+ast_List.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_List.derived
+END
+tuple.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/tuple.derived
+END
+local.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/3801/trunk/jython/src/templates/local.derived
+END
+op_RShift.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_RShift.derived
+END
+str.derived
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/4345/trunk/jython/src/templates/str.derived
+END
+op_AugLoad.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_AugLoad.derived
+END
+ast_Attribute.derived
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Attribute.derived
+END
+ast_Raise.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Raise.derived
+END
+file.derived
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/file.derived
+END
+ast_Lambda.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Lambda.derived
+END
+ast_AugAssign.derived
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_AugAssign.derived
+END
+op_IsNot.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_IsNot.derived
+END
+set.derived
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jython/!svn/ver/3121/trunk/jython/src/templates/set.derived
+END
+ast_Break.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Break.derived
+END
+ast_Continue.derived
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Continue.derived
+END
+op_Param.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Param.derived
+END
+long.derived
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/long.derived
+END
+classmethod.derived
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/classmethod.derived
+END
+complex.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/complex.derived
+END
+ast_Assert.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Assert.derived
+END
+ast_GeneratorExp.derived
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_GeneratorExp.derived
+END
+java_templating.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/3015/trunk/jython/src/templates/java_templating.py
+END
+op_USub.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_USub.derived
+END
+op_Lt.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Lt.derived
+END
+simpleprettyspec.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/simpleprettyspec.py
+END
+op_LtE.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_LtE.derived
+END
+ast_With.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_With.derived
+END
+dict.derived
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/dict.derived
+END
+ast_Return.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Return.derived
+END
+op_Sub.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Sub.derived
+END
+op_LShift.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_LShift.derived
+END
+op_Store.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Store.derived
+END
+ast_Exec.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Exec.derived
+END
+ast_Ellipsis.derived
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Ellipsis.derived
+END
+ast_ClassDef.derived
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_ClassDef.derived
+END
+ast_Module.derived
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Module.derived
+END
+ast_Compare.derived
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Compare.derived
+END
+op_Not.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Not.derived
+END
+java_pretty.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/3015/trunk/jython/src/templates/java_pretty.py
+END
+ast_TryExcept.derived
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_TryExcept.derived
+END
+ast_Suite.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Suite.derived
+END
+sigs.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/sigs.txt
+END
+op_Eq.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Eq.derived
+END
+java_parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/java_parser.py
+END
+deque.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/3916/trunk/jython/src/templates/deque.derived
+END
+ast_If.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_If.derived
+END
+list.derived
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/list.derived
+END
+op_Load.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Load.derived
+END
+op_BitOr.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_BitOr.derived
+END
+ast_While.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_While.derived
+END
+test.derived
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/test.derived
+END
+op_NotEq.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_NotEq.derived
+END
+ast_Interactive.derived
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Interactive.derived
+END
+zipimporter.derived
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/7266/trunk/jython/src/templates/zipimporter.derived
+END
+enumerate.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/4860/trunk/jython/src/templates/enumerate.derived
+END
+ast_ExtSlice.derived
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_ExtSlice.derived
+END
+BaseException.derived
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/templates/BaseException.derived
+END
+ast_keyword.derived
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_keyword.derived
+END
+make_binops.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/templates/make_binops.py
+END
+ast_ExceptHandler.derived
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_ExceptHandler.derived
+END
+op_BitAnd.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_BitAnd.derived
+END
+op_Del.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Del.derived
+END
+op_BitXor.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_BitXor.derived
+END
+directives.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/3000/trunk/jython/src/templates/directives.py
+END
+op_UAdd.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_UAdd.derived
+END
+ast_FunctionDef.derived
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_FunctionDef.derived
+END
+ast_Pass.derived
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Pass.derived
+END
+ast_Index.derived
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/5702/trunk/jython/src/templates/ast_Index.derived
+END
+array.derived
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/3124/trunk/jython/src/templates/array.derived
+END
+weakref.derived
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/4519/trunk/jython/src/templates/weakref.derived
+END
+op_Add.derived
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/jython/!svn/ver/5703/trunk/jython/src/templates/op_Add.derived
+END

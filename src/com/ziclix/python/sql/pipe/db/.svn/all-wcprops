@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/pipe/db
+END
+BaseDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/pipe/db/BaseDB.java
+END
+DBSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/pipe/db/DBSource.java
+END
+DBSink.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/7289/trunk/jython/src/com/ziclix/python/sql/pipe/db/DBSink.java
+END

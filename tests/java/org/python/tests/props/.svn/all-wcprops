@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/tests/props
+END
+PropShadow.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/6140/trunk/jython/tests/java/org/python/tests/props/PropShadow.java
+END
+BeanPropertyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/7120/trunk/jython/tests/java/org/python/tests/props/BeanPropertyTest.java
+END
+Readonly.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/6138/trunk/jython/tests/java/org/python/tests/props/Readonly.java
+END

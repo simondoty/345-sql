@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/7261/trunk/jython/src/org/python/core/stringlib
+END
+InternalFormatSpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/jython/!svn/ver/7261/trunk/jython/src/org/python/core/stringlib/InternalFormatSpec.java
+END
+MarkupIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/7261/trunk/jython/src/org/python/core/stringlib/MarkupIterator.java
+END
+InternalFormatSpecParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/jython/!svn/ver/7261/trunk/jython/src/org/python/core/stringlib/InternalFormatSpecParser.java
+END
+FieldNameIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/7261/trunk/jython/src/org/python/core/stringlib/FieldNameIterator.java
+END

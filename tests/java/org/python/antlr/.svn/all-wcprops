@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jython/!svn/ver/6819/trunk/jython/tests/java/org/python/antlr
+END
+PythonPartialTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/jython/!svn/ver/6819/trunk/jython/tests/java/org/python/antlr/PythonPartialTester.java
+END
+PythonTreeTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/6819/trunk/jython/tests/java/org/python/antlr/PythonTreeTester.java
+END
+WalkerTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/jython/!svn/ver/5206/trunk/jython/tests/java/org/python/antlr/WalkerTester.java
+END
+GrammarTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/jython/!svn/ver/5206/trunk/jython/tests/java/org/python/antlr/GrammarTester.java
+END

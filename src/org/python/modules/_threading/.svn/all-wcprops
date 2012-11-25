@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/7135/trunk/jython/src/org/python/modules/_threading
+END
+_threading.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/7135/trunk/jython/src/org/python/modules/_threading/_threading.java
+END
+Condition.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/6947/trunk/jython/src/org/python/modules/_threading/Condition.java
+END
+Lock.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6539/trunk/jython/src/org/python/modules/_threading/Lock.java
+END

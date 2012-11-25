@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/jython/!svn/ver/7282/trunk/jython/Misc
+END
+make_visitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/274/trunk/jython/Misc/make_visitor.py
+END
+make_pydocs.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/6861/trunk/jython/Misc/make_pydocs.py
+END
+make_excs.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jython/!svn/ver/274/trunk/jython/Misc/make_excs.py
+END
+jython_checker.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/3054/trunk/jython/Misc/jython_checker.py
+END
+__run__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/606/trunk/jython/Misc/__run__.py
+END
+make_checker.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jython/!svn/ver/3054/trunk/jython/Misc/make_checker.py
+END
+checker22.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jython/!svn/ver/3054/trunk/jython/Misc/checker22.py
+END
+checker23.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jython/!svn/ver/3066/trunk/jython/Misc/checker23.py
+END
+make_cmp.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/274/trunk/jython/Misc/make_cmp.py
+END
+make_java.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jython/!svn/ver/6/trunk/jython/Misc/make_java.py
+END
+make.rules
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/1151/trunk/jython/Misc/make.rules
+END
+make_ucnhashdat.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/1274/trunk/jython/Misc/make_ucnhashdat.py
+END
+make_operations.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/274/trunk/jython/Misc/make_operations.py
+END
+Release.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/2522/trunk/jython/Misc/Release.py
+END
+INDEX
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/jython/!svn/ver/274/trunk/jython/Misc/INDEX
+END
+make_errno.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jython/!svn/ver/2181/trunk/jython/Misc/make_errno.py
+END
+make_math.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jython/!svn/ver/274/trunk/jython/Misc/make_math.py
+END
+make_binops.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jython/!svn/ver/6172/trunk/jython/Misc/make_binops.py
+END

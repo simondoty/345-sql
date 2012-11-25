@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/7292/trunk/jython/src/org/python/modules
+END
+_codecs.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/7017/trunk/jython/src/org/python/modules/_codecs.java
+END
+_py_compile.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/5945/trunk/jython/src/org/python/modules/_py_compile.java
+END
+PyTeeIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/jython/!svn/ver/6304/trunk/jython/src/org/python/modules/PyTeeIterator.java
+END
+Setup.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/6976/trunk/jython/src/org/python/modules/Setup.java
+END
+cStringIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/6860/trunk/jython/src/org/python/modules/cStringIO.java
+END
+PyIOFileFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6046/trunk/jython/src/org/python/modules/PyIOFileFactory.java
+END
+_hashlib.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/6771/trunk/jython/src/org/python/modules/_hashlib.java
+END
+cPickle.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/7292/trunk/jython/src/org/python/modules/cPickle.java
+END
+synchronize.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/7026/trunk/jython/src/org/python/modules/synchronize.java
+END
+ucnhash.dat
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/2710/trunk/jython/src/org/python/modules/ucnhash.dat
+END
+PyIOFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/6046/trunk/jython/src/org/python/modules/PyIOFile.java
+END
+binascii.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/6304/trunk/jython/src/org/python/modules/binascii.java
+END
+struct.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/7009/trunk/jython/src/org/python/modules/struct.java
+END
+ArrayModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/jython/!svn/ver/5785/trunk/jython/src/org/python/modules/ArrayModule.java
+END
+itertools.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/jython/!svn/ver/6860/trunk/jython/src/org/python/modules/itertools.java
+END
+errno.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/7040/trunk/jython/src/org/python/modules/errno.java
+END
+imp.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/jython/!svn/ver/7018/trunk/jython/src/org/python/modules/imp.java
+END
+_marshal.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/6336/trunk/jython/src/org/python/modules/_marshal.java
+END
+jarray.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/jython/!svn/ver/3124/trunk/jython/src/org/python/modules/jarray.java
+END
+_sre.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/7009/trunk/jython/src/org/python/modules/_sre.java
+END
+_systemrestart.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/jython/!svn/ver/5206/trunk/jython/src/org/python/modules/_systemrestart.java
+END
+math.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/7279/trunk/jython/src/org/python/modules/math.java
+END
+gc.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/jython/!svn/ver/7000/trunk/jython/src/org/python/modules/gc.java
+END
+ucnhash.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/jython/!svn/ver/5780/trunk/jython/src/org/python/modules/ucnhash.java
+END
+operator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/5739/trunk/jython/src/org/python/modules/operator.java
+END
+cmath.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/6984/trunk/jython/src/org/python/modules/cmath.java
+END
+PyStruct.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/jython/!svn/ver/5378/trunk/jython/src/org/python/modules/PyStruct.java
+END

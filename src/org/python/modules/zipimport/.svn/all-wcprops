@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/7266/trunk/jython/src/org/python/modules/zipimport
+END
+zipimporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/7072/trunk/jython/src/org/python/modules/zipimport/zipimporter.java
+END
+zipimporterDerived.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/jython/!svn/ver/7266/trunk/jython/src/org/python/modules/zipimport/zipimporterDerived.java
+END
+zipimport.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/jython/!svn/ver/5816/trunk/jython/src/org/python/modules/zipimport/zipimport.java
+END

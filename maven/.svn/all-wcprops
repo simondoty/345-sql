@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/jython/!svn/ver/6384/trunk/jython/maven
+END
+ASF-LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/3129/trunk/jython/maven/ASF-LICENSE.txt
+END
+maven-v4_0_0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/3129/trunk/jython/maven/maven-v4_0_0.xsd
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jython/!svn/ver/3129/trunk/jython/maven/pom.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/jython/!svn/ver/6384/trunk/jython/maven/build.xml
+END

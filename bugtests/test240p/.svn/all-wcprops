@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jython/!svn/ver/3082/trunk/jython/bugtests/test240p
+END
+test240j1.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/3043/trunk/jython/bugtests/test240p/test240j1.java
+END
+test240j2.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/jython/!svn/ver/3043/trunk/jython/bugtests/test240p/test240j2.java
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jython/!svn/ver/3043/trunk/jython/bugtests/test240p/__init__.py
+END

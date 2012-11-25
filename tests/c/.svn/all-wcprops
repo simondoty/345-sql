@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/jython/!svn/ver/5206/trunk/jython/tests/c
+END
+ctypes_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/5206/trunk/jython/tests/c/ctypes_test.c
+END

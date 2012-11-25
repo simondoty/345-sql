@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/jython/!svn/ver/7038/trunk/jython/tests/modjy
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/__init__.py
+END
+lines.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/lines.txt
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/readme.txt
+END
+empty.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/6075/trunk/jython/tests/modjy/empty.txt
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/7021/trunk/jython/tests/modjy/build.xml
+END

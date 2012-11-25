@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/83000/python/branches/release26-maint/Lib/logging
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/!svn/ver/81919/python/branches/release26-maint/Lib/logging/__init__.py
+END
+handlers.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/!svn/ver/81494/python/branches/release26-maint/Lib/logging/handlers.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/83000/python/branches/release26-maint/Lib/logging/config.py
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/jython/!svn/ver/7032/trunk/jython/Lib/xml/sax
+END
+saxutils.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/6644/trunk/jython/Lib/xml/sax/saxutils.py
+END
+handler.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jython/!svn/ver/6644/trunk/jython/Lib/xml/sax/handler.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/sax/__init__.py
+END
+_exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jython/!svn/ver/6644/trunk/jython/Lib/xml/sax/_exceptions.py
+END
+saxlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/sax/saxlib.py
+END
+xmlreader.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/jython/!svn/ver/2920/trunk/jython/Lib/xml/sax/xmlreader.py
+END

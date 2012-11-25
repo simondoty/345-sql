@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/84292/python/branches/release26-maint/Lib/distutils
+END
+core.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/core.py
+END
+spawn.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/spawn.py
+END
+msvc9compiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/projects/!svn/ver/82132/python/branches/release26-maint/Lib/distutils/msvc9compiler.py
+END
+cygwinccompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/projects/!svn/ver/73349/python/branches/release26-maint/Lib/distutils/cygwinccompiler.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/84292/python/branches/release26-maint/Lib/distutils/__init__.py
+END
+cmd.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/cmd.py
+END
+mwerkscompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/mwerkscompiler.py
+END
+dist.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/77719/python/branches/release26-maint/Lib/distutils/dist.py
+END
+msvccompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/msvccompiler.py
+END
+sysconfig.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/83688/python/branches/release26-maint/Lib/distutils/sysconfig.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/!svn/ver/67944/python/branches/release26-maint/Lib/distutils/config.py
+END
+dep_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/dep_util.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/README
+END
+versionpredicate.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/versionpredicate.py
+END
+filelist.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/83648/python/branches/release26-maint/Lib/distutils/filelist.py
+END
+dir_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/83648/python/branches/release26-maint/Lib/distutils/dir_util.py
+END
+errors.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/!svn/ver/77376/python/branches/release26-maint/Lib/distutils/errors.py
+END
+extension.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/extension.py
+END
+file_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/file_util.py
+END
+ccompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/77425/python/branches/release26-maint/Lib/distutils/ccompiler.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/!svn/ver/83588/python/branches/release26-maint/Lib/distutils/util.py
+END
+archive_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/83648/python/branches/release26-maint/Lib/distutils/archive_util.py
+END
+bcppcompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/bcppcompiler.py
+END
+unixccompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/projects/!svn/ver/82274/python/branches/release26-maint/Lib/distutils/unixccompiler.py
+END
+log.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/log.py
+END
+fancy_getopt.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/fancy_getopt.py
+END
+text_file.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/text_file.py
+END
+version.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/projects/!svn/ver/71270/python/branches/release26-maint/Lib/distutils/version.py
+END
+debug.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/debug.py
+END
+emxccompiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/66717/python/branches/release26-maint/Lib/distutils/emxccompiler.py
+END

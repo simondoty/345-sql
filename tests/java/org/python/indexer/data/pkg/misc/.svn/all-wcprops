@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/misc
+END
+m1.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/misc/m1.py
+END
+m2.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/misc/m2.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/misc/__init__.py
+END
+m3.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/misc/m3.py
+END
+moduleA.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/misc/moduleA.py
+END
+moduleB.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/jython/!svn/ver/6990/trunk/jython/tests/java/org/python/indexer/data/pkg/misc/moduleB.py
+END

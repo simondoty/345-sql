@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/jython/!svn/ver/7221/trunk/jython/src/org/python/modules/_functools
+END
+PyPartial.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/jython/!svn/ver/5479/trunk/jython/src/org/python/modules/_functools/PyPartial.java
+END
+PyPartialDerived.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/jython/!svn/ver/6904/trunk/jython/src/org/python/modules/_functools/PyPartialDerived.java
+END
+_functools.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/jython/!svn/ver/7221/trunk/jython/src/org/python/modules/_functools/_functools.java
+END
